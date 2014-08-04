@@ -1,4 +1,4 @@
- | Código IBGE | Nome                                                  | Código IBGE da UF
+ | Código IBGE | Nome                                                  | Código IBGE da UF   |
  | ----------: | :---------------------------------------------------- | ------------------: |
  | 150812      | Ulianópolis                                           | 15                  |
  | 270670      | Penedo                                                | 27                  |

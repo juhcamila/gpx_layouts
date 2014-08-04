@@ -1,9 +1,0 @@
- | Código | Nome                 |
- | -----: | :------------------- |
- | 0      | Nenhuma              |
- | 1      | Física               |
- | 2      | Auditiva             |
- | 3      | Visual               |
- | 4      | Intelectual (mental) |
- | 5      | Múltipla             |
- | 6      | Reabilitado          |

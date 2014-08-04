@@ -1,0 +1,21 @@
+# Tabela 21
+## Códigos situações funcionais
+
+ | Código | Nome                          |
+ | -----: | :---------------------------- |
+ | 1      | Em Exercício                  |
+ | 2      | Exonerado(a)                  |
+ | 3      | Licenciado(a) com Remuneração |
+ | 4      | Licenciado(a) sem Remuneração |
+ | 5      | Cedido(a) com Ônus            |
+ | 6      | Cedido(a) sem Ônus            |
+ | 7      | Requisitado(a) com Ônus       |
+ | 8      | Requisitado(a) sem Ônus       |
+ | 9      | Demitido(a)                   |
+ | 10     | Em Disponibilidade            |
+ | 11     | Falecido(a)                   |
+ | 12     | Aposentado(a)                 |
+ | 13     | Recluso(a)                    |
+ | 99     | Outros                        |
+ | 14     | Reforma - Militar             |
+ | 15     | Reserva - Militar             |

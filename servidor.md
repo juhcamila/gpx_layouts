@@ -1,14 +1,5 @@
 # Layout de exportação dos dados de servidores para o GestPrev Next
 
-### Observações:
-
- - O arquivo deve estar em formato CSV **com header** e separado por “,”.
- - Tanto os headers quanto os valores devem estar entre "aspas duplas".
- - Os campos não podem conter caracteres especiais que não sejam acentos. Exemplo: “, ‘, ;.
- - Deve haver uma coluna para cada campo do arquivo, mesmo que o campo não seja preenchido.
- - Campos de valores obrigatoriamente devem conter uma casa decimal. Exemplo: “100.0” ou “456.78”.
- - A coluna tamanho informa o limite máximo de caracteres aceitáveis na coluna. Não é necessário preencher o resto com espaço.
-
 ### Tabela de atributos
 
  | Atributo                              | Obrigatório | Tipo     | Descrição                                                                            | Tamanho máximo |

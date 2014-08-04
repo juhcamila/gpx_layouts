@@ -12,7 +12,7 @@
 ### Tabela de atributos
 
  | Atributo                                | Obrigatório | Tipo     | Descrição                                                                                             | Tamanho máximo |
- | :------------------------------------   | :---------- | :------- | :---------------------------------------------------------------------------------------------------- | -------------: |
+ | :-------------------------------------- | :---------- | :------- | :---------------------------------------------------------------------------------------------------- | -------------: |
  | nome                                    | Sim         | Caracter | Nome completo                                                                                         | 80             |
  | nome_mae                                | Sim         | Caracter | Nome completo da mãe                                                                                  | 80             |
  | data_nascimento                         | Sim         | Caracter | Data de nascimento, preencher no formato DD/MM/AAAA                                                   | 10             |

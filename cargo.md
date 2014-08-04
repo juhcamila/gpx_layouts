@@ -12,16 +12,19 @@
 
 ### Tabela de atributos
 
- | Atributo               | Obrigatório | Tipo     | Descrição                                                       | Tamanho  | Decimais |
- | :-------               | :---------- | :---     | :--------                                                       | -------: | -        |
- | nome                   | Sim         | Caracter | Nome do cargo                                                   | 60       | -        |
- | codigo_origem          | Não         | Caracter | Código de origem da carreira                                    | 6        | -        |
- | data_criacao           | Não         | Caracter | Data da criação da carreira. Preencher no formato DD/MM/AAAA    | 10       | -        |
- | data_extincao          | Não         | Caracter | Data da extinção da carreira. Preencher no formato DD/MM/AAAA   | 10       | -        |
- | cargo_acumulacao       | Sim         | Numérico | Cargo com acumulação, de acordo com a Tabela 32                 | 1        | -        |
- | contagem_especial      | Sim         | Numérico | Cargo com contagem de tempo especial, de acordo com a Tabela 02 | 1        | -        |
- | tecnico_cientifico     | Sim         | Numérico | Cargo técnico científico. [0: Não, 1: Sim]                      | 1        | -        |
- | remuneracao_inicial    | Não         | Numérico | Valor da remuneração inicial do cargo                           | 8        | 2        |
- | remuneracao_final      | Não         | Numérico | Valor da remuneração final do cargo                             | 8        | 2        |
- | aposentadoria_especial | Sim         | Numérico | Cargo tem aposentadoria especial. [0: Não, 1: Sim]              | 1        | -        |
- | dedicacao_exclusiva    | Sim         | Numérico | Cargo com dedicação exclusiva. [0: Não, 1: Sim]                 | 1        | -        |
+| Atributo               | Obrigatório | Tipo     | Descrição                                                               | Tamanho  | Decimais |
+| :-------               | :---------- | :---     | :--------                                                               | -------: | -        |
+| nome                   | Sim         | Caracter | Nome do cargo                                                           | 60       | -        |
+| codigo_origem          | Não         | Caracter | Código de origem da carreira                                            | 6        | -        |
+| data_criacao           | Não         | Caracter | Data da criação da carreira. Preencher no formato DD/MM/AAAA            | 10       | -        |
+| data_extincao          | Não         | Caracter | Data da extinção da carreira. Preencher no formato DD/MM/AAAA           | 10       | -        |
+| cargo_acumulacao       | Sim         | Numérico | Cargo com acumulação, de acordo com a Tabela 32                         | 1        | -        |
+| contagem_especial      | Sim         | Numérico | Cargo com contagem de tempo especial, de acordo com a Tabela 02         | 1        | -        |
+| tecnico_cientifico     | Sim         | Numérico | Cargo técnico científico. [0: Não, 1: Sim]                              | 1        | -        |
+| remuneracao_inicial    | Não         | Numérico | Valor da remuneração inicial do cargo                                   | 8        | 2        |
+| remuneracao_final      | Não         | Numérico | Valor da remuneração final do cargo                                     | 8        | 2        |
+| aposentadoria_especial | Sim         | Numérico | Cargo tem aposentadoria especial. [0: Não, 1: Sim]                      | 1        | -        |
+| dedicacao_exclusiva    | Sim         | Numérico | Cargo com dedicação exclusiva. [0: Não, 1: Sim]                         | 1        | -        |
+| nome_carreira          | Sim         | Caracter | Nome da carreira na qual o cargo está vinculado                         | 60       | -        |
+| nome_orgao             | Sim         | Caracter | Nome do órgão vinculado à carreira do cargo                             | 100      | -        |
+| poder                  | Sim         | Numérico | Poder do órgão vinculado à carreira do cargo, de acordo com a Tabela 19 | 1        | -        |

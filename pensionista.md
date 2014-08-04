@@ -15,13 +15,13 @@
  | :-------------------------------------- | :---------- | :------- | :---------------------------------------------------------------------------------------------------- | -------------: |
  | nome                                    | Sim         | Caracter | Nome completo                                                                                         | 80             |
  | nome_mae                                | Sim         | Caracter | Nome completo da mãe                                                                                  | 80             |
- | data_nascimento                         | Sim         | Caracter | Data de nascimento, preencher no formato DD/MM/AAAA                                                   | 10             |
+ | data_nascimento                         | Sim         | Data     | Data de nascimento, preencher no formato DD/MM/AAAA                                                   | 10             |
  | cpf                                     | Não         | Caracter | CPF, preencher somente com números                                                                    | 11             |
  | nome_pai                                | Não         | Caracter | Nome completo do pai                                                                                  | 80             |
  | rg                                      | Não         | Caracter | Número do RG, preencher somente com números                                                           | 20             |
  | rg_uf_expedicao                         | Não         | Numérico | Código IBGE da UF de expedição do RG, de acordo com a Tabela 08                                       | 8              |
  | rg_orgao_emissor                        | Não         | Numérico | Código do órgão emissor do RG, de acordo com a Tabela 16                                              | -              |
- | rg_data_expedicao                       | Não         | Caracter | Data de expedição do RG, preencher no formato DD/MM/AAAA                                              | 10             |
+ | rg_data_expedicao                       | Não         | Data     | Data de expedição do RG, preencher no formato DD/MM/AAAA                                              | 10             |
  | estado_civil                            | Não         | Numérico | Código do estado civil, de acordo com a Tabela 06                                                     | 2              |
  | email                                   | Não         | Caracter | Correio eletrônico                                                                                    | 80             |
  | tipo_sanguineo                          | Não         | Numérico | Tipo sanguíneo, de acordo com a Tabela 29                                                             | -              |
@@ -64,6 +64,6 @@
  | dependencia_justificativa_fim_pensao    | Não         | Caracter | Justificativa do motivo de fim de pensão caso seja escolhido um valor igual a 51 ou 99                | 50             |
  | servidor_vinculado_nome                 | Sim         | Caracter | Nome completo do servidor vinculado                                                                   | 80             |
  | servidor_vinculado_nome_mae             | Não         | Caracter | Nome completo da mãe do servidor vinculado                                                            | 80             |
- | servidor_vinculado_data_nascimento      | Não         | Caracter | Data de nascimento do servidor vinculado , preencher no formato DD/MM/AAAA                            | 10             |
+ | servidor_vinculado_data_nascimento      | Não         | Data     | Data de nascimento do servidor vinculado , preencher no formato DD/MM/AAAA                            | 10             |
  | servidor_vinculado_cpf                  | Não         | Caracter | CPF, preencher somente com números do servidor vinculado                                              | 11             |
  | servidor_vinculado_pasep_pis_nit        | Não         | Caracter | Número de PIS/PASEP/NIT do servidor vinculado, preencher somente com números                          | 11             |

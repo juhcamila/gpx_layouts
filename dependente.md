@@ -36,7 +36,7 @@
  | endereco_tipo_logradouro                   | Não         | Numérico | Tipo do logradouro, de acordo com a Tabela 08                                                         | 2              |
  | endereco_tipo_imovel                       | Não         | Numérico | Tipo de imóvel, de acordo com a Tabela 27                                                             | 2              |
  | endereco_logradouro                        | Não         | Caracter | Logradouro                                                                                            | 40             |
- | endereco_bairo                             | Não         | Caracter | Bairro                                                                                                | 30             |
+ | endereco_bairro                            | Não         | Caracter | Bairro                                                                                                | 30             |
  | endereco_complemento_logradouro            | Não         | Caracter | Complemento do logradouro                                                                             | 30             |
  | endereco_numero_logradouro                 | Não         | Caracter | Número do logradouro, preencher somente com números                                                   | 5              |
  | telefone_ddd                               | Não         | Caracter | DDD do telefone                                                                                       | 2              |

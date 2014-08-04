@@ -12,11 +12,19 @@
 
 ### Tabela de atributos
 
-  | Atributo      | Obrigatório | Tipo     | Descrição                                                                         | Tamanho  |
-  | :-------      | :---------- | :---     | :--------                                                                         | -------: |
-  | nome          | Sim         | Caracter | Nome da carreira                                                                  | 60       |
-  | codigo_origem | Não         | Caracter | Código de origem da carreira                                                      | 6        |
-  | data_criacao  | Não         | Caracter | Data da criação da carreira. Preencher no formato preencher no formato DD/MM/AAAA | 10       |
-  | data_extincao | Não         | Caracter | Data da extinção da carreira. Preencher no formato DD/MM/AAAA                     | 10       |
-  | nome_orgao    | Sim         | Caracter | Nome do órgão vinculado à carreira                                                | 100      |
-  | poder         | Sim         | Numérico | Poder do órgão vinculado à carreira. Ver tabela anexa                             | 1        |
+  | Atributo                       | Obrigatório | Tipo     | Descrição                                                                         | Tamanho máximo |
+  | :----------------------------- | :---------- | :------- | :-------------------------------------------------------------------------------- | -------------: |
+  | nome                           | Sim         | Caracter | Nome da carreira                                                                  | 60             |
+  | codigo_origem                  | Não         | Caracter | Código de origem da carreira                                                      | 6              |
+  | data_criacao                   | Não         | Data     | Data da criação da carreira, preencher no formato DD/MM/AAAA                      | 10             |
+  | data_extincao                  | Não         | Data     | Data da extinção da carreira, preencher no formato DD/MM/AAAA                     | 10             |
+  | orgao_nome_orgao               | Sim         | Caracter | Nome do órgão vinculado à carreira                                                | 100            |
+  | orgao_poder                    | Sim         | Numérico | Poder do órgão vinculado à carreira. Ver tabela anexa                             | 1              |
+  | ato_legal_tipo_ato             | Sim         | Numérico | Tipo do ato legal, de acordo com a Tabela 23                                      | 2              |
+  | ato_legal_numero               | Sim         | Caracter | Número do ato legal, preencher somente com números                                | 12             |
+  | ato_legal_ano                  | Sim         | Numérico | Ano do ato legal                                                                  | 4              |
+  | ato_legal_data_publicacao      | Sim         | Data     | Data de publicação do ato legal, preencher no formato DD/MM/AAAA                  | 10             |
+  | ato_legal_data_inicio_vigencia | Sim         | Data     | Data de início de vigência do ato legal, preencher no formato DD/MM/AAAA          | 10             |
+  | ato_legal_data_revogacao       | Não         | Data     | Data de revogação do ato legal, preencher no formato DD/MM/AAAA                   | 10             |
+  | ato_legal_resumo_ementa        | Não         | Caracter | Resumo da ementa do ato legal                                                     | 100            |
+  | ato_legal_ementa               | Não         | Caracter | Ementa do ato legal                                                               | 1000           |

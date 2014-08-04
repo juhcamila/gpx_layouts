@@ -1,0 +1,240 @@
+| Código | Nome
+| -----: | :-------------------------------------- |
+| 4      | Afeganistão                             |
+| 8      | Albania                                 |
+| 12     | Argelia                                 |
+| 16     | Samoa Americana                         |
+| 20     | Andorra                                 |
+| 24     | Angola                                  |
+| 28     | Antigua e Barbuda                       |
+| 31     | Azerbaijao                              |
+| 32     | Argentina                               |
+| 36     | Australia                               |
+| 40     | Austria                                 |
+| 44     | Bahamas                                 |
+| 48     | Bahrein                                 |
+| 50     | Bangladesh                              |
+| 51     | Armenia                                 |
+| 52     | Barbados                                |
+| 56     | Belgica                                 |
+| 60     | Bermuda                                 |
+| 64     | Butão                                   |
+| 68     | Bolivia                                 |
+| 70     | Bosnia e Herzegovina                    |
+| 72     | Botsuana                                |
+| 76     | Brasil                                  |
+| 84     | Belize                                  |
+| 90     | Ilhas Salomao                           |
+| 92     | Ilhas Virgens Bitanicas                 |
+| 96     | Brunei Darussalam                       |
+| 100    | Bulgaria                                |
+| 104    | Birmania                                |
+| 108    | Burundi                                 |
+| 112    | Belarus                                 |
+| 116    | Camboja                                 |
+| 120    | Camaroes                                |
+| 124    | Canada                                  |
+| 132    | Cabo Verde                              |
+| 136    | Ilhas Cayman                            |
+| 140    | Republica Centro Africana               |
+| 144    | Sri Lanka                               |
+| 148    | Chade                                   |
+| 152    | Chile                                   |
+| 156    | China                                   |
+| 170    | Colombia                                |
+| 174    | Comores                                 |
+| 175    | Mayotte                                 |
+| 178    | Congo                                   |
+| 180    | Republica Democratica do Congo          |
+| 184    | Ilhas Cook                              |
+| 188    | Costa Rica                              |
+| 191    | Croacia                                 |
+| 192    | Cuba                                    |
+| 196    | Chipre                                  |
+| 203    | Republica Tcheca                        |
+| 204    | Benin                                   |
+| 208    | Dinamarca                               |
+| 212    | Dominica                                |
+| 214    | Republica Dominicana                    |
+| 218    | Equador                                 |
+| 222    | El Salvador                             |
+| 226    | Guine Equatorial                        |
+| 231    | Etiopia                                 |
+| 232    | Eritreia                                |
+| 233    | Estonia                                 |
+| 234    | Ilhas Faroe                             |
+| 238    | Ilhas Falkland (Malvinas)               |
+| 242    | Fiji                                    |
+| 246    | Finlandia                               |
+| 248    | Ilhas Aland                             |
+| 250    | Franca                                  |
+| 254    | Guiana Francesa                         |
+| 258    | Polinesia Francesa                      |
+| 262    | Djibuti                                 |
+| 266    | Gabao                                   |
+| 268    | Georgia                                 |
+| 270    | Gambia                                  |
+| 275    | Territorio Palestino Ocupado            |
+| 276    | Alemanha                                |
+| 288    | Ghana                                   |
+| 292    | Gibraltar                               |
+| 296    | Quiribati                               |
+| 300    | Grecia                                  |
+| 304    | Groenlandia                             |
+| 308    | Granada                                 |
+| 312    | Guadalupe                               |
+| 316    | Guam                                    |
+| 320    | Guatemala                               |
+| 324    | Guine                                   |
+| 328    | Guiana                                  |
+| 332    | Haiti                                   |
+| 336    | Vaticano                                |
+| 340    | Honduras                                |
+| 344    | Hong Kong                               |
+| 348    | Hungria                                 |
+| 352    | Islandia                                |
+| 356    | India                                   |
+| 360    | Indonesia                               |
+| 364    | Republica Islamica do Ira               |
+| 368    | Iraque                                  |
+| 372    | Irlanda                                 |
+| 376    | Israel                                  |
+| 380    | Italia                                  |
+| 384    | Costa do Marfim                         |
+| 388    | Jamaica                                 |
+| 392    | Japao                                   |
+| 398    | Cazaquistao                             |
+| 400    | Jordania                                |
+| 404    | Quenia                                  |
+| 408    | Republica Democratica Popular da Coreia |
+| 410    | Republica da Coreia                     |
+| 414    | Kuait                                   |
+| 417    | Quirguistao                             |
+| 418    | Republica Democratica Popular De Lao    |
+| 422    | Libano                                  |
+| 426    | Lesoto                                  |
+| 428    | Letonia                                 |
+| 430    | Liberia                                 |
+| 434    | Republica Arabe da Libia                |
+| 438    | Liechtenstein                           |
+| 440    | Lituania                                |
+| 442    | Luxemburgo                              |
+| 446    | Macao                                   |
+| 450    | Madagascar                              |
+| 454    | Malaui                                  |
+| 458    | Malasia                                 |
+| 462    | Maldivas                                |
+| 466    | Mali                                    |
+| 470    | Malta                                   |
+| 474    | Martinica                               |
+| 478    | Mauritania                              |
+| 480    | Mauricio                                |
+| 484    | Mexico                                  |
+| 492    | Monaco                                  |
+| 496    | Mongolia                                |
+| 498    | Republica da Moldavia                   |
+| 500    | Monserrate                              |
+| 504    | Marrocos                                |
+| 508    | Mozambique                              |
+| 512    | Oma                                     |
+| 516    | Namibia                                 |
+| 520    | Nauru                                   |
+| 524    | Nepal                                   |
+| 528    | Holanda                                 |
+| 530    | Antilhas Holandesas                     |
+| 533    | Aruba                                   |
+| 540    | Nova Caledonia                          |
+| 548    | Vanuatu                                 |
+| 554    | Nova Zelandia                           |
+| 558    | Nicaragua                               |
+| 562    | Niger                                   |
+| 566    | Nigeria                                 |
+| 570    | Niue                                    |
+| 574    | Ilhas Norfolk                           |
+| 578    | Noruega                                 |
+| 580    | Ilhas Mariana do Norte                  |
+| 583    | Estados Federados da Micronesia         |
+| 584    | Ilhas Marshall                          |
+| 585    | Palau                                   |
+| 586    | Paquistao                               |
+| 591    | Panama                                  |
+| 598    | Papua-nova Guine                        |
+| 600    | Paraguai                                |
+| 604    | Peru                                    |
+| 608    | Filipinas                               |
+| 612    | Pitcairn                                |
+| 616    | Polonia                                 |
+| 620    | Portugal                                |
+| 624    | Guine-bissau                            |
+| 626    | Timor Leste                             |
+| 630    | Porto Rico                              |
+| 634    | Qatar                                   |
+| 638    | Reuniao                                 |
+| 642    | Romenia                                 |
+| 643    | Federacao Russa                         |
+| 646    | Ruanda                                  |
+| 654    | Santa Helena                            |
+| 659    | Sao Cristobal e Neves                   |
+| 660    | Anguila                                 |
+| 662    | Santa Lucia                             |
+| 666    | Sao Pedro e Miquelon                    |
+| 670    | Sao Vicente e Granadinas                |
+| 674    | Sao Marino                              |
+| 678    | Sao Tome e Principe                     |
+| 682    | Arabia Saudita                          |
+| 686    | Senegal                                 |
+| 690    | Seychelles                              |
+| 694    | Serra Leoa                              |
+| 702    | Cingapura                               |
+| 703    | Eslovaquia                              |
+| 704    | Vietnam                                 |
+| 705    | Eslovenia                               |
+| 706    | Somalia                                 |
+| 710    | Africa do Sul                           |
+| 716    | Zimbabue                                |
+| 724    | Espanha                                 |
+| 732    | Sahara Ocidental                        |
+| 736    | Sudão                                   |
+| 740    | Suriname                                |
+| 744    | Ilhas Svalbard e Jan Mayen              |
+| 748    | Suazilandia                             |
+| 752    | Suecia                                  |
+| 756    | Suica                                   |
+| 760    | Republica Arabe da Siria                |
+| 762    | Tajiquistao                             |
+| 764    | Tailandia                               |
+| 768    | Togo                                    |
+| 772    | Tokelau                                 |
+| 776    | Tonga                                   |
+| 780    | Trinida e Tobago                        |
+| 784    | Emirados Arabes Unidos                  |
+| 788    | Tunisia                                 |
+| 792    | Turquia                                 |
+| 795    | Turquemenistão                          |
+| 796    | Lhas Turcas e Caicos                    |
+| 798    | Tuvalu                                  |
+| 800    | Uganda                                  |
+| 804    | Ucrânia                                 |
+| 807    | Antiga Republica Iugoslava da Macedonia |
+| 818    | Egito                                   |
+| 826    | Grã-Bretanha                            |
+| 830    | Ilhas Canal                             |
+| 831    | Guernsey                                |
+| 832    | Jersey                                  |
+| 833    | Ilha de Man                             |
+| 834    | Republica Unida da Tanzania             |
+| 840    | Estados Unidos da America               |
+| 850    | Estados Unidos das Ilhas Virgens        |
+| 854    | Burkina Fasso                           |
+| 858    | Uruguai                                 |
+| 860    | Uzbequistão                             |
+| 862    | Venezuela                               |
+| 876    | Ilhas Wallis e Futuna                   |
+| 882    | Samoa                                   |
+| 887    | Iemen                                   |
+| 891    | Serbia e Montenegro                     |
+| 894    | Zambia                                  |
+| 996    | Formosa (Taiwan)                        |
+| 997    | Mercosul                                |
+| 998    | União Europeia                          |
+| 999    | Ignorado                                |

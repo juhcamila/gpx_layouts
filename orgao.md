@@ -1,4 +1,4 @@
-# Layout de exportação dos dados de servidores para o GestPrev Next
+# Layout de exportação dos dados de órgão para o GestPrev Next
 
 ### Observações:
 

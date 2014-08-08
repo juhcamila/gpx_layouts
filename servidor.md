@@ -75,7 +75,7 @@
  | estrangeiro_rg_data_emissao                         | Não         | Data     | Data de emissão do RGE, preencher no formato DD/MM/AAAA, para nacionalidade diferente de Brasileira          | 10             |
  | conselho_classe_nome                                | Não         | Caracter | Nome do conselho de classe                                                                                   | 60             |
  | conselho_classe_numero                              | Não         | Caracter | Número do conselho de classe                                                                                 | 8              |
- | conselho_classe_uf                                  | Não         | Numérico | Código IBGE da UF do conselho de classe, de acordo com a Tabela 08                                           | 8              |
+ | conselho_classe_uf_expedicao                        | Não         | Numérico | Código IBGE da UF de expedição do conselho de classe, de acordo com a Tabela 08                              | 8              |
  | conselho_classe_data_emissao                        | Não         | Data     | Data de emissão da carteira de conselho de classe, preencher no formato DD/MM/AAAA                           | 10             |
  | conselho_classe_data_validade                       | Não         | Data     | Data de validade da carteira de conselho de classe, preencher no formato DD/MM/AAAA                          | 10             |
  | assistencia_saude_rede_atendimento                  | Não         | Numérico | Tipo da rede de atendimento. [0: Pública, 1: Privada]                                                        | 1              |
@@ -91,7 +91,7 @@
  | representante_legal_cpf                             | Sim*        | Caracter | CPF do representante legal, preencher somente com números                                                    | 11             |
  | representante_legal_rg                              | Sim*        | Caracter | RG do representante legal                                                                                    | 20             |
  | representante_legal_rg_orgao_expedidor              | Não         | Numérico | Código do órgão expedidor do RG, de acordo com a Tabela 16                                                   | -              |
- | representante_legal_rg_uf                           | Não         | Caracter | Código IBGE da UF de expedição do RG, de acordo com a Tabela 08                                              | 8              |
+ | representante_legal_rg_uf_expedicao                 | Não         | Caracter | Código IBGE da UF de expedição do RG do representante legal, de acordo com a Tabela 08                       | 8              |
  | representante_legal_rg_data_emissao                 | Não         | Data     | Data de emissão do RG do representante legal, preencher no formato DD/MM/AAAA                                | 10             |
  | representante_legal_data_nascimento                 | Sim*        | Data     | Data de nascimento do representante legal, preencher no formato DD/MM/AAAA                                   | 10             |
  | representante_legal_sexo                            | Sim*        | Numérico | Sexo do representante legal. [0: Masculino, 1: Feminino]                                                     | 1              |

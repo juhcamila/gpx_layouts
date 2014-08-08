@@ -74,7 +74,7 @@
  | representante_legal_cpf                             | Sim**       | Caracter | CPF do representante legal, preencher somente com números                                             | 11             |
  | representante_legal_rg                              | Sim**       | Caracter | RG do representante legal                                                                             | 20             |
  | representante_legal_rg_orgao_expedidor              | Não         | Numérico | Código do órgão expedidor do RG, de acordo com a Tabela 16                                            | -              |
- | representante_legal_rg_uf                           | Não         | Caracter | Código IBGE da UF de expedição do RG, de acordo com a Tabela 08                                       | 8              |
+ | representante_legal_rg_uf_expedicao                 | Não         | Caracter | Código IBGE da UF de expedição do RG do representante legal, de acordo com a Tabela 08                | 8              |
  | representante_legal_rg_data_emissao                 | Não         | Data     | Data de emissão do RG do representante legal, preencher no formato DD/MM/AAAA                         | 10             |
  | representante_legal_data_nascimento                 | Sim**       | Data     | Data de nascimento do representante legal, preencher no formato DD/MM/AAAA                            | 10             |
  | representante_legal_sexo                            | Sim**       | Numérico | Sexo do representante legal. [0: Masculino, 1: Feminino]                                              | 1              |
@@ -92,7 +92,7 @@
  | representante_legal_celular                         | Não         | Caracter | Número do celular do representante legal, preencher somente com números                               | 9              |
  | representante_legal_email                           | Não         | Caracter | Correio eletrônico                                                                                    | 80             |
 
-\* campo obrigatório apenas se o Ato Legal estiver presente.
-\*\* campo obrigatório apenas se o representante legal e o tipo de representatividade do servidor estiverem presentes.
+\* Campo obrigatório apenas se o Ato Legal estiver presente.
+\*\* Campo obrigatório apenas se o representante legal e o tipo de representatividade do servidor estiverem presentes.
 \*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 4 ou 5.
 \*\*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 5.

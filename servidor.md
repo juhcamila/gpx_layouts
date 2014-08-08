@@ -85,16 +85,16 @@
  | informatica_conhecimentos_gerais                    | Não         | Numérico | Conhecimentos gerais de informática, de acordo com a Tabela 34                                               | 1              |
  | informatica_conhecimentos_nivel                     | Não         | Numérico | Nível de conhecimento em informática, de acordo com a Tabela 35                                              | 1              |
  | representatividade_tipo                             | Sim*        | Numérico | Tipo da representatividade do servidor para com seu representante legal, de acordo com a Tabela 36           | 1              |
- | representatividade_data_inicio                      | Não**       | Data     | Data de início da representatividade, preencher no formato DD/MM/AAAA                                        | 10             |
- | representatividade_data_termino_previsto            | Não***      | Data     | Data de término previsto da representatividade, preencher no formato DD/MM/AAAA                              | 10             |
- | representante_legal_nome                            | Sim*        | Caracter | Nome do representante legal                                                                                  | 80             |
- | representante_legal_cpf                             | Sim*        | Caracter | CPF do representante legal, preencher somente com números                                                    | 11             |
- | representante_legal_rg                              | Sim*        | Caracter | RG do representante legal                                                                                    | 20             |
+ | representatividade_data_inicio                      | Não\*\*     | Data     | Data de início da representatividade, preencher no formato DD/MM/AAAA                                        | 10             |
+ | representatividade_data_termino_previsto            | Não\*\*\*   | Data     | Data de término previsto da representatividade, preencher no formato DD/MM/AAAA                              | 10             |
+ | representante_legal_nome                            | Sim\*       | Caracter | Nome do representante legal                                                                                  | 80             |
+ | representante_legal_cpf                             | Sim\*       | Caracter | CPF do representante legal, preencher somente com números                                                    | 11             |
+ | representante_legal_rg                              | Sim\*       | Caracter | RG do representante legal                                                                                    | 20             |
  | representante_legal_rg_orgao_expedidor              | Não         | Numérico | Código do órgão expedidor do RG, de acordo com a Tabela 16                                                   | -              |
  | representante_legal_rg_uf_expedicao                 | Não         | Caracter | Código IBGE da UF de expedição do RG do representante legal, de acordo com a Tabela 08                       | 8              |
  | representante_legal_rg_data_emissao                 | Não         | Data     | Data de emissão do RG do representante legal, preencher no formato DD/MM/AAAA                                | 10             |
- | representante_legal_data_nascimento                 | Sim*        | Data     | Data de nascimento do representante legal, preencher no formato DD/MM/AAAA                                   | 10             |
- | representante_legal_sexo                            | Sim*        | Numérico | Sexo do representante legal. [0: Masculino, 1: Feminino]                                                     | 1              |
+ | representante_legal_data_nascimento                 | Sim\*       | Data     | Data de nascimento do representante legal, preencher no formato DD/MM/AAAA                                   | 10             |
+ | representante_legal_sexo                            | Sim\*       | Numérico | Sexo do representante legal. [0: Masculino, 1: Feminino]                                                     | 1              |
  | representante_legal_endereco_cep                    | Não         | Caracter | CEP do endereço do representante legal, preencher somente com números                                        | 8              |
  | representante_legal_endereco_municipio              | Não         | Numérico | Código IBGE do município do representante legal, de acordo com a Tabela 07                                   | 8              |
  | representante_legal_endereco_logradouro_tipo        | Não         | Numérico | Tipo do logradouro do representante legal, de acordo com a Tabela 08                                         | 2              |
@@ -110,5 +110,7 @@
  | representante_legal_email                           | Não         | Caracter | Correio eletrônico                                                                                           | 80             |
 
 \* Campos obrigatórios apenas se o representante legal e o tipo de representatividade do servidor estiverem presentes
+
 \*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 4 ou 5.
+
 \*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 5.

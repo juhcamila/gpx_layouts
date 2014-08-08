@@ -11,7 +11,7 @@
  | empregador_cnpj                    | Não         | Caractere | Número do CNPJ do empregador, preencher apenas com números                                   | 14             |
  | vinculo_data_inicial               | Sim         | Data      | Data inicial do vínculo, preencher no formato DD/MM/AAAA                                     | 10             |
  | vinculo_data_final                 | Sim         | Data      | Data final do vínculo, preencher no formato DD/MM/AAAA                                       | 10             |
- | certidao_tempo_liquido_ano_mes_dia | Sim         | Caractere | Preencher no formato AA/MM/DIA, verificar detalhes\*\*                                       | 8              |
+ | certidao_tempo_liquido_ano_mes_dia | Sim         | Caractere | Preencher no formato AA/MM/DIA, verificar detalhes\*\*\*                                     | 8              |
  | certidao_numero_dias               | Sim         | Numérico  | Tempo total em dias da certidão                                                              | 5              |
  | cargo_nome                         | Sim         | Caractere | Cargo do servidor no RGPS                                                                    | 60             |
  | cargo_acumulavel                   | Não         | Numérico  | Cargo do servidor é acumulável? [0: Não, 1: Sim]                                             | 1              |
@@ -26,3 +26,5 @@
 \* Campo obrigatório para certidões emitidas após 01/09/1994
 
 \*\* Caso o servidor possua mais de um vínculo empregatício na certidão, os atributos certidao_numero, certidao_data_emissao e pasep_pis_nit serão necessários para compor a chave composta para cadastramento dos vincínculos empregatícios
+
+\*\*\* Formato do campo deve ser AA/MM/DD, sendo meses de 01 até 12 e dias de 01 até 30. Exemplos: 15/11/09 (15 anos, 11 meses e 9 dias)

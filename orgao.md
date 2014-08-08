@@ -24,13 +24,13 @@
  | poder                            | Sim         | Numérico | Poder do órgão, de acordo com a Tabela 19                                 | 1              |
  | esfera                           | Não         | Numérico | Esfera do órgão, de acordo com a Tabela 05                                | 1              |
  | natureza_juridica                | Não         | Numérico | Natureza Jurídica do órgão, de acordo com a Tabela 15                     | 2              |
- | ato_legal_tipo_ato               | Sim*         | Numérico | Tipo do ato legal, de acordo com a Tabela 23                              | 2              |
- | ato_legal_numero                 | Sim*         | Caracter | Número do ato legal, preencher somente com números                        | 12             |
- | ato_legal_ano                    | Sim*         | Numérico | Ano do ato legal                                                          | 4              |
- | ato_legal_data_publicacao        | Sim*         | Data     | Data de publicação do ato legal, preencher no formato DD/MM/AAAA          | 10             |
- | ato_legal_data_inicio_vigencia   | Sim*         | Data     | Data de início de vigência do ato legal, preencher no formato DD/MM/AAAA  | 10             |
+ | ato_legal_tipo_ato               | Sim\*       | Numérico | Tipo do ato legal, de acordo com a Tabela 23                              | 2              |
+ | ato_legal_numero                 | Sim\*       | Caracter | Número do ato legal, preencher somente com números                        | 12             |
+ | ato_legal_ano                    | Sim\*       | Numérico | Ano do ato legal                                                          | 4              |
+ | ato_legal_data_publicacao        | Sim\*       | Data     | Data de publicação do ato legal, preencher no formato DD/MM/AAAA          | 10             |
+ | ato_legal_data_inicio_vigencia   | Sim\*       | Data     | Data de início de vigência do ato legal, preencher no formato DD/MM/AAAA  | 10             |
  | ato_legal_data_revogacao         | Não         | Data     | Data de revogação do ato legal, preencher no formato DD/MM/AAAA           | 10             |
  | ato_legal_resumo_ementa          | Não         | Caracter | Resumo da ementa do ato legal                                             | 100            |
  | ato_legal_ementa                 | Não         | Caracter | Ementa do ato legal                                                       | 1000           |
 
-\* campo obrigatório apenas se o Ato Legal estiver presente.
+\* Este campo é obrigatório apenas se o Ato Legal estiver presente.

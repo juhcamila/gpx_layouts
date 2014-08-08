@@ -19,7 +19,7 @@
  | escolaridade_nivel                                  | Não         | Numérico | Escolaridade, de acordo com a Tabela 04                                                               | -              |
  | escolaridade_nome_curso                             | Não         | Caracter | Nome do curso acadêmico                                                                               | 100            |
  | escolaridade_nome_instituicao                       | Não         | Caracter | Nome da instituição do curso acadêmico                                                                | 100            |
- | escolaridade_ano_conclusao                          | Não         | Data     | Ano de conclusão do curso acadêmico, preencher no formato DD/MM/AAAA                                  | 10             |
+ | escolaridade_ano_conclusao                          | Não         | Data     | Ano de conclusão do curso acadêmico                                                                   | 10             |
  | sexo                                                | Não         | Numérico | Sexo [0: Masculino, 1: Feminino]                                                                      | 1              |
  | tipo_deficiencia                                    | Não         | Numérico | Tipo de deficiência, de acordo com a Tabela 25                                                        | 1              |
  | pais_origem                                         | Não         | Numérico | Código do país de origem do servidor, de acordo com a Tabela 18                                       | 3              |

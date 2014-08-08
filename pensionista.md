@@ -53,11 +53,11 @@
  | dependencia_pensao_motivo_fim                       | Não         | Numérico | Movito de fim da pensão, de acordo com a Tabela 11                                                    | 2              |
  | dependencia_justificativa_inicio_pensao             | Não         | Caracter | Justificativa do motivo de início de pensão caso seja escolhido um valor diferente de 10              | 50             |
  | dependencia_justificativa_fim_pensao                | Não         | Caracter | Justificativa do motivo de fim de pensão caso seja escolhido um valor igual a 51 ou 99                | 50             |
- | dependencia_ato_legal_tipo_ato                      | Sim*        | Numérico | Tipo do ato legal, de acordo com a Tabela 23                                                          | 2              |
- | dependencia_ato_legal_numero                        | Sim*        | Caracter | Número do ato legal, preencher somente com números                                                    | 12             |
- | dependencia_ato_legal_ano                           | Sim*        | Numérico | Ano do ato legal                                                                                      | 4              |
- | dependencia_ato_legal_data_publicacao               | Sim*        | Data     | Data de publicação do ato legal, preencher no formato DD/MM/AAAA                                      | 10             |
- | dependencia_ato_legal_data_inicio_vigencia          | Sim*        | Data     | Data de início de vigência do ato legal, preencher no formato DD/MM/AAAA                              | 10             |
+ | dependencia_ato_legal_tipo_ato                      | Sim\*       | Numérico | Tipo do ato legal, de acordo com a Tabela 23                                                          | 2              |
+ | dependencia_ato_legal_numero                        | Sim\*       | Caracter | Número do ato legal, preencher somente com números                                                    | 12             |
+ | dependencia_ato_legal_ano                           | Sim\*       | Numérico | Ano do ato legal                                                                                      | 4              |
+ | dependencia_ato_legal_data_publicacao               | Sim\*       | Data     | Data de publicação do ato legal, preencher no formato DD/MM/AAAA                                      | 10             |
+ | dependencia_ato_legal_data_inicio_vigencia          | Sim\*       | Data     | Data de início de vigência do ato legal, preencher no formato DD/MM/AAAA                              | 10             |
  | dependencia_ato_legal_data_revogacao                | Não         | Data     | Data de revogação do ato legal, preencher no formato DD/MM/AAAA                                       | 10             |
  | dependencia_ato_legal_resumo_ementa                 | Não         | Caracter | Resumo da ementa do ato legal                                                                         | 100            |
  | dependencia_ato_legal_ementa                        | Não         | Caracter | Ementa do ato legal                                                                                   | 1000           |
@@ -66,17 +66,17 @@
  | servidor_vinculado_data_nascimento                  | Não         | Data     | Data de nascimento do servidor vinculado , preencher no formato DD/MM/AAAA                            | 10             |
  | servidor_vinculado_cpf                              | Não         | Caracter | CPF, preencher somente com números do servidor vinculado                                              | 11             |
  | servidor_vinculado_pasep_pis_nit                    | Não         | Caracter | Número de PIS/PASEP/NIT do servidor vinculado, preencher somente com números                          | 11             |
- | representatividade_tipo                             | Sim**       | Numérico | Tipo da representatividade do servidor para com seu representante legal, de acordo com a Tabela 36    | 1              |
- | representatividade_data_inicio                      | Não***      | Data     | Data de início da representatividade, preencher no formato DD/MM/AAAA                                 | 10             |
- | representatividade_data_termino_previsto            | Não****     | Data     | Data de término previsto da representatividade, preencher no formato DD/MM/AAAA                       | 10             |
- | representante_legal_nome                            | Sim**       | Caracter | Nome do representante legal                                                                           | 80             |
- | representante_legal_cpf                             | Sim**       | Caracter | CPF do representante legal, preencher somente com números                                             | 11             |
- | representante_legal_rg                              | Sim**       | Caracter | RG do representante legal                                                                             | 20             |
+ | representatividade_tipo                             | Sim\*\*     | Numérico | Tipo da representatividade do servidor para com seu representante legal, de acordo com a Tabela 36    | 1              |
+ | representatividade_data_inicio                      | Não\*\*\*   | Data     | Data de início da representatividade, preencher no formato DD/MM/AAAA                                 | 10             |
+ | representatividade_data_termino_previsto            | Não\*\*\*\* | Data     | Data de término previsto da representatividade, preencher no formato DD/MM/AAAA                       | 10             |
+ | representante_legal_nome                            | Sim\*\*     | Caracter | Nome do representante legal                                                                           | 80             |
+ | representante_legal_cpf                             | Sim\*\*     | Caracter | CPF do representante legal, preencher somente com números                                             | 11             |
+ | representante_legal_rg                              | Sim\*\*     | Caracter | RG do representante legal                                                                             | 20             |
  | representante_legal_rg_orgao_expedidor              | Não         | Numérico | Código do órgão expedidor do RG, de acordo com a Tabela 16                                            | -              |
  | representante_legal_rg_uf_expedicao                 | Não         | Caracter | Código IBGE da UF de expedição do RG do representante legal, de acordo com a Tabela 08                | 8              |
  | representante_legal_rg_data_emissao                 | Não         | Data     | Data de emissão do RG do representante legal, preencher no formato DD/MM/AAAA                         | 10             |
- | representante_legal_data_nascimento                 | Sim**       | Data     | Data de nascimento do representante legal, preencher no formato DD/MM/AAAA                            | 10             |
- | representante_legal_sexo                            | Sim**       | Numérico | Sexo do representante legal. [0: Masculino, 1: Feminino]                                              | 1              |
+ | representante_legal_data_nascimento                 | Sim\*\*     | Data     | Data de nascimento do representante legal, preencher no formato DD/MM/AAAA                            | 10             |
+ | representante_legal_sexo                            | Sim\*\*     | Numérico | Sexo do representante legal. [0: Masculino, 1: Feminino]                                              | 1              |
  | representante_legal_endereco_cep                    | Não         | Caracter | CEP do endereço do representante legal, preencher somente com números                                 | 8              |
  | representante_legal_endereco_municipio              | Não         | Numérico | Código IBGE do município do representante legal, de acordo com a Tabela 07                            | 8              |
  | representante_legal_endereco_logradouro_tipo        | Não         | Numérico | Tipo do logradouro do representante legal, de acordo com a Tabela 08                                  | 2              |
@@ -91,7 +91,10 @@
  | representante_legal_celular                         | Não         | Caracter | Número do celular do representante legal, preencher somente com números                               | 9              |
  | representante_legal_email                           | Não         | Caracter | Correio eletrônico                                                                                    | 80             |
 
-\* Campo obrigatório apenas se o Ato Legal estiver presente.
+\* Este campo é obrigatório apenas se o Ato Legal estiver presente.
+
 \*\* Campo obrigatório apenas se o representante legal e o tipo de representatividade do servidor estiverem presentes.
+
 \*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 4 ou 5.
+
 \*\*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 5.

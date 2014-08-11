@@ -1,0 +1,21 @@
+# Tabela 37
+## Códigos de tipos de situação funcional
+
+ | Código | Tipos de situação funcional   |
+ | -----: | :---------------------------- |
+ | 1      | Em exercício                  |
+ | 2      | Exonerado(a)                  |
+ | 3      | Licensiado(a) com remuneração |
+ | 4      | Licensiado(a) sem remuneração |
+ | 5      | Cedido(a) com ônus            |
+ | 6      | Cedido(a) sem ônus            |
+ | 7      | Requisitado(a) com ônus       |
+ | 8      | Requisitado(a) sem ônus       |
+ | 9      | Demitido(a)                   |
+ | 10     | Em disponibilidade            |
+ | 11     | Falecido(a)                   |
+ | 12     | Aposentado(a)                 |
+ | 13     | Recluso(a)                    |
+ | 14     | Reforma - Militar             |
+ | 15     | Reserva - Militar             |
+ | 99     | Outros                        |

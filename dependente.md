@@ -91,6 +91,10 @@
  | representante_legal_celular_ddd                     | Não         | Caracter | DDD do celular do representante legal                                                                 | 2              |
  | representante_legal_celular                         | Não         | Caracter | Número do celular do representante legal, preencher somente com números                               | 9              |
  | representante_legal_email                           | Não         | Caracter | Correio eletrônico                                                                                    | 80             |
+ | assistencia_saude_rede_atendimento                  | Não         | Numérico | Tipo da rede de atendimento. [0: Pública, 1: Privada]                                                 | 1              |
+ | assistencia_saude_plano_operadora                   | Não         | Caracter | Nome da operadora do plano de Saúde                                                                   | 100            |
+ | assistencia_saude_plano_nome                        | Não         | Caracter | Nome do plano de saúde                                                                                | 100            |
+ | assistencia_saude_plano_titular                     | Não         | Numérico | Servidor titular ou dependente. [0: Titular, 1: Dependente]                                           | 1              |
 
 \* Este campo é obrigatório apenas se o Ato Legal estiver presente.
 

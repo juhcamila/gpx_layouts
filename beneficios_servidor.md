@@ -4,15 +4,15 @@
 
  | Atributo                                | Obrigatório | Tipo      | Descrição                                                                                        | Tamanho máximo | Decimais |
  | :-------------------------------------- | :---------- | :-------- | :----------------------------------------------------------------------------------------------- | -------------: | -------: |
- | data_inicio                             | Não         | Data      | Data de início do recebimento do benefício, preencher no formato DD/MM/AAAA                      | 10             | -        |
+ | data_inicio_beneficio                   | Não         | Data      | Data de início do recebimento do benefício, preencher no formato DD/MM/AAAA                      | 10             | -        |
  | tipo_beneficio                          | Sim         | Numérico  | Código do tipo do benefício, conforme Tabela 24                                                  | 2              | -        |
  | data_fim_beneficio                      | Não         | Data      | Data de fim do recebimento do benefício, preencher no formato DD/MM/AAAAA                        | 10             | -        |
  | valor_atual_beneficio                   | Sim         | Numérico  | Valor atual do benefício recebido pelo servidor                                                  | 8              | 2        |
  | valor_inicial_beneficio                 | Não         | Numérico  | Valor inicial do benefício recebido pelo servidor                                                | 8              | 2        |
  | numero_processo                         | Não         | Numérico  | Número do processo do benefício do servidor                                                      | 20             | -        |
  | numero_beneficio                        | Não         | Numérico  | Número do benefício do servidor                                                                  | 20             | -        |
- | data_ultima_atualizacao                 | Sim         | Data      | Data da última atualização no benefício, preencher no formato DD/MM/AAAA                         | 10             | -        |
- | data_publicacao                         | Não         | Data      | Data de publicação do benefício, preencher no formato DD/MM/AAAA                                 | 10             | -        |
+ | data_atualizacao_beneficio              | Sim         | Data      | Data da última atualização no benefício, preencher no formato DD/MM/AAAA                         | 10             | -        |
+ | data_publicacao_benficicio              | Não         | Data      | Data de publicação do benefício, preencher no formato DD/MM/AAAA                                 | 10             | -        |
  | trib_conta_nome_responsavel             | Não         | Caracter  | Nome do responsável pelo registrou ou homologação no tribunal de contas                          | 100            | -        |
  | trib_conta_data_registro_homologacao    | Não         | Data      | Data do registro ou homologação no tribunal de contas, preenhcer no formato DD/MM/AAAA           | 10             | -        |
  | trib_conta_resumo_ato_legal             | Não         | Caracter  | Resumo do documento de ato legal com registro ou homologação no tribunal de contas               | 1000           | -        |
@@ -23,16 +23,17 @@
  | tempo_total_dias_rpps                   | Não         | Numérico  | Tempo total em dias no RPPS considerado para a aposentadoria                                     | 5              | 0        |
  | classe_cargo                            | Não         | Caracter  | Código da classe do cargo, de acordo com a Tabela 39                                             | 2              | 0        |
  | padrao_cargo                            | Não         | Caracter  | Código do padrão do cargo, de acordo com Tabela 40                                               | 2              | 0        |
- | qtd_deps_salario_familia                | Não         | Numérico  | Quantidade de dependentes do salário família                                                     | 2              | -        |
- | valor_salario_familia_total             | Não         | Numérico  | Valor do salário família total                                                                   | 8              | 2        |
- | valor_salario_familia_individual        | Não         | Numérico  | Valor do salário família individual                                                              | 8              | 2        |
- | reclusao_declaracao_numero              | Não         | Caracter  | Número da declaração da reclusão                                                                 | 20             | -        |
+ | salario_familia_quantidade_dependentes  | Não         | Numérico  | Quantidade de dependentes do salário família                                                     | 2              | -        |
+ | salario_familia_valor_total             | Não         | Numérico  | Valor do salário família total                                                                   | 8              | 2        |
+ | salario_familia_valor_individual        | Não         | Numérico  | Valor do salário família individual                                                              | 8              | 2        |
+ | reclusao_declaracao_numero              | Não         | Caracter  | Número da declaração da reclusão, preencher somente com números                                  | 20             | -        |
  | reclusao_declaracao_data                | Não         | Data      | Data da declaração da reclusão, preencher no formato DD/MM/AAAA                                  | 10             | -        |
  | data_encarceramento                     | Não         | Data      | Data do encarceramento, preencher no formato DD/MM/AAAA                                          | 10             | -        |
  | tipo_aposentadoria_especial             | Não         | Numérico  | Código do tipo de aposentadoria especial, conforme Tabela 22                                     | 2              | -        |
  | pensao_motivo_inicio                    | Não         | Numérico  | Código do motivo de início do benefício de pensão, conforme Tabela 14                            | 2              | -        |
  | pensao_motivo_fim                       | Não         | Numérico  | Código do motivo de fim do benefício de pensão, conforme Tabela 11                               | 2              | -        |
- | pensao_justificativa_motivo_fim         | Não         | Caracter  | Justificativa do motivo de fim de pensão\*                                                       | 50             | -        |
+ | pensao_justificativa_motivo_inicio      | Não\*       | Caracter  | Justificativa do motivo de início de pensão                                                      | 50             | -        |
+ | pensao_justificativa_motivo_fim         | Não \*\*    | Caracter  | Justificativa do motivo de fim de pensão                                                         | 50             | -        |
  | reclusao_motivo_inicio_auxilio          | Não         | Numérico  | Código do motivo de início do benefício de auxílio reclusão, conforme Tabela 12                  | 1              | -        |
  | reclusao_motivo_fim_auxilio             | Não         | Numérico  | Código do motivo de fim do benefício de auxílio reclusão, conforme Tabela 9                      | 1              | -        |
  | ato_legal_tipo_ato                      | Sim         | Numérico  | Tipo do ato legal, de acordo com a Tabela 23                                                     | 2              | -        |
@@ -66,3 +67,7 @@
  | dependente_vinculado_data_nascimento    | Não         | Data      | Data de nascimento do dependente vinculado , preencher no formato DD/MM/AAAA                     | 10             | -        |
  | dependente_vinculado_cpf                | Não         | Caracter  | CPF, preencher somente com números do dependente vinculado                                       | 11             | -        |
  | dependente_vinculado_pasep_pis_nit      | Não         | Caracter  | Número de PIS/PASEP/NIT do dependente vinculado, preencher somente com números                   | 11             | -        |
+
+\* Este campo torna-se obrigatório caso o atributo pensao_motivo_inicio contenha código diferente de 10 ("Óbito")
+
+\*\* Este campo torna-se obrigatório caso o atributo pensao_motivo_fim contenha código diferente de de 51 ou 99 ("Decisão Judicial" ou "Outros")

@@ -23,8 +23,8 @@
  | padrao_cargo                            | Não         | Caracter  | Código do padrão do cargo, de acordo com Tabela 40                                               | 2              | 0        |
  | pensao_motivo_inicio                    | Não         | Numérico  | Código do motivo de início do benefício de pensão, conforme Tabela 14                            | 2              | -        |
  | pensao_motivo_fim                       | Não         | Numérico  | Código do motivo de fim do benefício de pensão, conforme Tabela 11                               | 2              | -        |
- | pensao_justificativa_motivo_inicio      | Não         | Caracter  | Justificativa do motivo de início de pensão\*                                                    | 50             | -        |
- | pensao_justificativa_motivo_fim         | Não         | Caracter  | Justificativa do motivo de fim de pensão\*\*                                                     | 50             | -        |
+ | pensao_justificativa_motivo_inicio      | Não\*       | Caracter  | Justificativa do motivo de início de pensão                                                      | 50             | -        |
+ | pensao_justificativa_motivo_fim         | Não\*\*     | Caracter  | Justificativa do motivo de fim de pensão                                                         | 50             | -        |
  | cargo_nome                              | Sim         | Caracter  | Nome do cargo em que o servidor se aposentou                                                     | 60             | -        |
  | carreira_nome                           | Sim         | Caracter  | Nome da carreira na qual o cargo está vinculado                                                  | 60             | -        |
  | orgao_nome                              | Sim         | Caracter  | Nome do órgão vinculado à carreira do cargo                                                      | 100            | -        |
@@ -48,3 +48,7 @@
  | dependente_vinculado_data_nascimento    | Não         | Data      | Data de nascimento do dependente vinculado , preencher no formato DD/MM/AAAA                     | 10             | -        |
  | dependente_vinculado_cpf                | Não         | Caracter  | CPF, preencher somente com números do dependente vinculado                                       | 11             | -        |
  | dependente_vinculado_pasep_pis_nit      | Não         | Caracter  | Número de PIS/PASEP/NIT do dependente vinculado, preencher somente com números                   | 11             | -        |
+
+\* Este campo torna-se obrigatório caso o atributo pensao_motivo_inicio contenha código diferente de 10 ("Óbito")
+
+\*\* Este campo torna-se obrigatório caso o atributo pensao_motivo_fim contenha código diferente de de 51 ou 99 ("Decisão Judicial" ou "Outros")

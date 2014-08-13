@@ -8,7 +8,7 @@
  | descricao_funcao                        | Sim         | Caracter  | Nome da função ou emprego exercido pelo servidor no RGPS                                                | 25             |
  | matricula                               | Sim         | Caracter  | Matrícula do servidor                                                                                   | 20             |
  | regime_previdenciario                   | Sim         | Numérico  | Tipo do regime previdenciário do vínculo. [1: RGPS]                                                     | 1              |
- | tipo_vinculo                            | Sim         | Numérico  | Tipo do vínculo do servidor com o órgão do vínculo funcional, de acordo com a Tabela 38\*               | 2              |
+ | tipo_vinculo                            | Sim\*       | Numérico  | Tipo do vínculo do servidor com o órgão do vínculo funcional, de acordo com a Tabela 38                 | 2              |
  | vereador                                | Não         | Numérico  | Servidor exerce mandato como vereador? [0: Não, 1: Sim]                                                 | 1              |
  | orgao_vinculado_nome                    | Sim         | Caracter  | Nome do órgão do vínculo funcional                                                                      | 100            |
  | orgao_vinculado_poder                   | Sim         | Numérico  | Poder do órgão do vínculo funcional, de acordo com a Tabela 19                                          | 1              |

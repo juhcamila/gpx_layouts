@@ -11,7 +11,7 @@
  | matricula                               | Sim         | Caracter  | Matrícula do servidor                                                                            | 20             |
  | regime_previdenciario                   | Sim         | Numérico  | Tipo do regime previdenciário do vínculo. [2: RPPS, 3: RPPS em extinção]                         | 1              |
  | tipo_servidor                           | Sim         | Numérico  | Tipo do servidor vinculado. [1: Civil, 2: Militar]                                               | 1              |
- | tipo_vinculo                            | Sim         | Numérico  | Tipo do vínculo do servidor com o órgão do vínculo funcional, de acordo com a Tabela 38\*\*      | 2              |
+ | tipo_vinculo                            | Sim\*\*     | Numérico  | Tipo do vínculo do servidor com o órgão do vínculo funcional, de acordo com a Tabela 38          | 2              |
  | orgao_vinculado_nome                    | Sim         | Caracter  | Nome do órgão do vínculo funcional                                                               | 100            |
  | orgao_vinculado_poder                   | Sim         | Numérico  | Poder do órgão do vínculo funcional, de acordo com a Tabela 19                                   | 1              |
  | servidor_vinculado_nome                 | Sim         | Caracter  | Nome completo do servidor vinculado                                                              | 80             |

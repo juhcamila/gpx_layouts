@@ -4,15 +4,15 @@
 
  | Atributo                                | Obrigatório | Tipo      | Descrição                                                                                        | Tamanho máximo | Decimais |
  | :-------------------------------------- | :---------- | :-------- | :----------------------------------------------------------------------------------------------- | -------------: | -------: |
- | data_inicio_beneficio                   | Não         | Data      | Data de início do recebimento do benefício, preencher no formato DD/MM/AAAA                      | 10             | -        |
+ | data_inicio                             | Não         | Data      | Data de início do recebimento do benefício, preencher no formato DD/MM/AAAA                      | 10             | -        |
  | tipo_beneficio                          | Sim         | Numérico  | Código do tipo do benefício, conforme Tabela 24                                                  | 2              | -        |
- | data_fim_beneficio                      | Não         | Data      | Data de fim do recebimento do benefício, preencher no formato DD/MM/AAAAA                        | 10             | -        |
- | valor_atual_beneficio                   | Sim         | Numérico  | Valor atual do benefício recebido pelo servidor                                                  | 8              | 2        |
- | valor_inicial_beneficio                 | Não         | Numérico  | Valor inicial do benefício recebido pelo servidor                                                | 8              | 2        |
+ | data_fim                                | Não         | Data      | Data de fim do recebimento do benefício, preencher no formato DD/MM/AAAAA                        | 10             | -        |
+ | valor_atual                             | Sim         | Numérico  | Valor atual do benefício recebido pelo servidor                                                  | 8              | 2        |
+ | valor_inicial                           | Não         | Numérico  | Valor inicial do benefício recebido pelo servidor                                                | 8              | 2        |
  | numero_processo                         | Não         | Numérico  | Número do processo do benefício do servidor                                                      | 20             | -        |
  | numero_beneficio                        | Não         | Numérico  | Número do benefício do servidor                                                                  | 20             | -        |
- | data_atualizacao_beneficio              | Sim         | Data      | Data da última atualização no benefício, preencher no formato DD/MM/AAAA                         | 10             | -        |
- | data_publicacao_benficicio              | Não         | Data      | Data de publicação do benefício, preencher no formato DD/MM/AAAA                                 | 10             | -        |
+ | data_atualizacao                        | Sim         | Data      | Data da última atualização no benefício, preencher no formato DD/MM/AAAA                         | 10             | -        |
+ | data_publicacao                         | Não         | Data      | Data de publicação do benefício, preencher no formato DD/MM/AAAA                                 | 10             | -        |
  | trib_conta_nome_responsavel             | Não         | Caracter  | Nome do responsável pelo registrou ou homologação no tribunal de contas                          | 100            | -        |
  | trib_conta_data_registro_homologacao    | Não         | Data      | Data do registro ou homologação no tribunal de contas, preenhcer no formato DD/MM/AAAA           | 10             | -        |
  | trib_conta_resumo_ato_legal             | Não         | Caracter  | Resumo do documento de ato legal com registro ou homologação no tribunal de contas               | 1000           | -        |

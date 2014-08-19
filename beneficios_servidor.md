@@ -11,7 +11,7 @@
  | valor_inicial                           | Não         | Numérico  | Valor inicial do benefício recebido pelo servidor                                                | 8              | 2        |
  | numero_processo                         | Não         | Numérico  | Número do processo do benefício do servidor                                                      | 20             | -        |
  | numero_beneficio                        | Não         | Numérico  | Número do benefício do servidor                                                                  | 20             | -        |
- | data_atualizacao                        | Sim         | Data      | Data da última atualização no benefício, preencher no formato DD/MM/AAAA                         | 10             | -        |
+ | data_ultima_atualizacao                 | Sim         | Data      | Data da última atualização no benefício, preencher no formato DD/MM/AAAA                         | 10             | -        |
  | data_publicacao                         | Não         | Data      | Data de publicação do benefício, preencher no formato DD/MM/AAAA                                 | 10             | -        |
  | trib_conta_nome_responsavel             | Não         | Caracter  | Nome do responsável pelo registrou ou homologação no tribunal de contas                          | 100            | -        |
  | trib_conta_data_registro_homologacao    | Não         | Data      | Data do registro ou homologação no tribunal de contas, preenhcer no formato DD/MM/AAAA           | 10             | -        |

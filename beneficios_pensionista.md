@@ -6,9 +6,9 @@
  | :-------------------------------------- | :---------- | :-------- | :----------------------------------------------------------------------------------------------- | -------------: | -------: |
  | data_inicio                             | Não         | Data      | Data de início do recebimento do benefício, preencher no formato DD/MM/AAAA                      | 10             | -        |
  | tipo_beneficio                          | Sim         | Numérico  | Código do tipo do benefício, conforme Tabela 24                                                  | 2              | -        |
- | data_fim_beneficio                      | Não         | Data      | Data de fim do recebimento do benefício, preencher no formato DD/MM/AAAAA                        | 10             | -        |
- | valor_atual_beneficio                   | Sim         | Numérico  | Valor atual do benefício recebido pelo pensionista                                               | 8              | 2        |
- | valor_inicial_beneficio                 | Não         | Numérico  | Valor inicial do benefício recebido pelo pensionista                                             | 8              | 2        |
+ | data_fim                                | Não         | Data      | Data de fim do recebimento do benefício, preencher no formato DD/MM/AAAAA                        | 10             | -        |
+ | valor_atual                             | Sim         | Numérico  | Valor atual do benefício recebido pelo pensionista                                               | 8              | 2        |
+ | valor_inicial                           | Não         | Numérico  | Valor inicial do benefício recebido pelo pensionista                                             | 8              | 2        |
  | numero_processo                         | Não         | Numérico  | Número do processo do benefício do servidor                                                      | 20             | -        |
  | numero_beneficio                        | Não         | Numérico  | Número do benefício do servidor                                                                  | 20             | -        |
  | data_ultima_atualizacao                 | Sim         | Data      | Data da última atualização no benefício, preencher no formato DD/MM/AAAA                         | 10             | -        |

@@ -51,7 +51,7 @@
  | titulo_eleitor_numero                               | Não         | Caracter | Número do título de eleitor, preencher somente com números                                                   | 14             |
  | titulo_eleitor_zona                                 | Não         | Numérico | Zona do título de eleitor                                                                                    | -              |
  | titulo_eleitor_secao_eleitoral                      | Não         | Numérico | Seção do título de eleitor                                                                                   | -              |
- | titulo_eleitor_uf_expedicao                         | Não         | Numérico | Código IBGE da UF de emissão do título de eleitor, de acordo com a Tabela 08                                 | -              |
+ | titulo_eleitor_expedicao_uf                         | Não         | Numérico | Código IBGE da UF de emissão do título de eleitor, de acordo com a Tabela 08                                 | -              |
  | data_falecimento                                    | Não         | Data     | Data de falecimento do servidor, preencher no formato DD/MM/AAAA                                             | 10             |
  | certidao_obito_termo                                | Não         | Caracter | Número do termo da certidão de óbito, preencher somente com números                                          | 15             |
  | certidao_obito_livro                                | Não         | Caracter | Número do livro da certidão de óbito, preencher somente com números                                          | 15             |

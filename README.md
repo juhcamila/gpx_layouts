@@ -2,13 +2,14 @@
 
 Este repositório reúne os layouts que devem ser disponibilizados para a migração de dados externos para o GestPrev Next.
 
-Os layouts contemplam de forma compatível todos os campos essenciais e obrigatórios do sistema SIPREV Gestão.
+Os layouts contemplam de forma compatível todos os campos essenciais e obrigatórios do sistema SIPREV Gestão.
 
 ## Observações
 
 Os arquivos devem respeitar algumas regras de formatação para serem recebidos pelo sistema:
 
  - Cada arquivo deve estar em formato CSV **com header** e separado por “`,`” (vírgula).
+ - Cada arquivo deve possuir a extensão ".csv".
  - Tanto os headers quanto os valores devem estar entre `""` (aspas duplas), mesmo que os valores estejam em branco.
  - Os campos não devem conter caracteres especiais que não sejam acentos. Por exemplo: “`,` `‘`, `;`".
  - A coluna tamanho máximo indica a quantidade máxima de caracteres da coluna. Não é necessário preencher o resto com espaços.

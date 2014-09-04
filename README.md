@@ -10,11 +10,29 @@ Os arquivos devem respeitar algumas regras de formatação para serem recebidos 
 
  - Cada arquivo deve estar em formato CSV **com header** e separado por “`,`” (vírgula).
  - Cada arquivo deve possuir a extensão ".csv".
- - Tanto os headers quanto os valores devem estar entre `""` (aspas duplas), mesmo que os valores estejam em branco.
+ - Tanto os headers quanto os valores devem estar entre `""` (aspas duplas), mesmo que os valores estejam em branco. Não deverá haver espaço em branco entre as aspas e o separador de coluna.
  - Os campos não devem conter caracteres especiais que não sejam acentos. Por exemplo: “`,` `‘`, `;`".
  - A coluna tamanho máximo indica a quantidade máxima de caracteres da coluna. Não é necessário preencher o resto com espaços.
  - Deve haver uma coluna para cada campo do arquivo, mesmo que o campo não seja preenchido.
  - Campos de valores obrigatoriamente **devem conter uma casa decimal**. Por exemplo: “100.0” ou “456.78”.
+
+Exemplo de arquivo no formato CSV válido para importação:
+
+```
+"nome","email","idade"
+"Francisco","xicinho@exemplo.com","32"
+"Maria","maria@exemplo.com","27"
+```
+
+Exemplo de arquivo no formato CSV inválido para importação:
+
+```
+"nome", "email", "idade"
+"Francisco", "xicinho@exemplo.com", 32
+Maria, "maria@exemplo.com", 27
+```
+
+(espaços entre os valores e o separador, colunas sem quotes [`""`])
 
 ### Sobre os Atos Legais
 

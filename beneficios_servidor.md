@@ -36,11 +36,11 @@
  | pensao_justificativa_motivo_fim         | Não \*\*    | Caracter  | Justificativa do motivo de fim de pensão                                                         | 50             | -        |
  | reclusao_motivo_inicio_auxilio          | Não         | Numérico  | Código do motivo de início do benefício de auxílio reclusão, conforme Tabela 12                  | 1              | -        |
  | reclusao_motivo_fim_auxilio             | Não         | Numérico  | Código do motivo de fim do benefício de auxílio reclusão, conforme Tabela 9                      | 1              | -        |
- | ato_legal_tipo_ato                      | Sim         | Numérico  | Tipo do ato legal, de acordo com a Tabela 23                                                     | 2              | -        |
- | ato_legal_numero                        | Sim         | Caracter  | Número do ato legal, preencher somente com números                                               | 12             | -        |
- | ato_legal_ano                           | Sim         | Numérico  | Ano do ato legal                                                                                 | 4              | -        |
- | ato_legal_data_publicacao               | Sim         | Data      | Data de publicação do ato legal, preencher no formato DD/MM/AAAA                                 | 10             | -        |
- | ato_legal_data_inicio_vigencia          | Sim         | Data      | Data de início de vigência do ato legal, preencher no formato DD/MM/AAAA                         | 10             | -        |
+ | ato_legal_tipo_ato                      | Sim \*\*\*  | Numérico  | Tipo do ato legal, de acordo com a Tabela 23                                                     | 2              | -        |
+ | ato_legal_numero                        | Sim \*\*\*  | Caracter  | Número do ato legal, preencher somente com números                                               | 12             | -        |
+ | ato_legal_ano                           | Sim \*\*\*  | Numérico  | Ano do ato legal                                                                                 | 4              | -        |
+ | ato_legal_data_publicacao               | Sim \*\*\*  | Data      | Data de publicação do ato legal, preencher no formato DD/MM/AAAA                                 | 10             | -        |
+ | ato_legal_data_inicio_vigencia          | Sim \*\*\*  | Data      | Data de início de vigência do ato legal, preencher no formato DD/MM/AAAA                         | 10             | -        |
  | ato_legal_data_revogacao                | Não         | Data      | Data de revogação do ato legal, preencher no formato DD/MM/AAAA                                  | 10             | -        |
  | ato_legal_resumo_ementa                 | Não         | Caracter  | Resumo da ementa do ato legal                                                                    | 100            | -        |
  | ato_legal_ementa                        | Não         | Caracter  | Ementa do ato legal                                                                              | 1000           | -        |
@@ -71,3 +71,5 @@
 \* Este campo torna-se obrigatório caso o atributo pensao_motivo_inicio contenha código diferente de 10 ("Óbito")
 
 \*\* Este campo torna-se obrigatório caso o atributo pensao_motivo_fim contenha código diferente de de 51 ou 99 ("Decisão Judicial" ou "Outros")
+
+\*\*\* Este campo é obrigatório apenas se o Ato Legal estiver presente

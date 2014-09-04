@@ -20,13 +20,14 @@
  | mov_func_data_fim_funcao                | Não         | Data      | Data final na função/emprego, preencher no formato DD/MM/AAAA                                           | 10             |
  | mov_func_data_movimentacao              | Sim         | Data      | Data em que ocorreu a movimentação funcional, preencher no formato DD/MM/AAAA                           | 10             |
  | mov_func_descricao_funcao               | Sim         | Caracter  | Nome da função/emprego exercido pelo servidor no RGPS                                                   | 25             |
- | mov_func_ato_legal_tipo                 | Sim         | Numérico  | Tipo do ato legal do histórico funcional do RGPS, de acordo com Tabela 23                               | 2              |
- | mov_func_ato_legal_numero               | Sim         | Numérico  | Número do ato legal do histórico funcional do RGPS                                                      | 12             |
- | mov_func_ato_legal_ano                  | Sim         | Numérico  | Ano do ato legal do histórico funcional do RGPS                                                         | 4              |
- | mov_func_ato_legal_data_publicacao      | Sim         | Data      | Data de publicação do ato legal do histórico funcional do RGPS, preencher no formato DD/MM/AAAA         | 10             |
- | mov_func_ato_legal_data_inicio_vigencia | Sim         | Data      | Data de início de vigência do ato legal do histórico funcional do RGPS, preencher no formato DD/MM/AAAA | 10             |
+ | mov_func_ato_legal_tipo                 | Sim\*\*     | Numérico  | Tipo do ato legal do histórico funcional do RGPS, de acordo com Tabela 23                               | 2              |
+ | mov_func_ato_legal_numero               | Sim\*\*     | Numérico  | Número do ato legal do histórico funcional do RGPS                                                      | 12             |
+ | mov_func_ato_legal_ano                  | Sim\*\*     | Numérico  | Ano do ato legal do histórico funcional do RGPS                                                         | 4              |
+ | mov_func_ato_legal_data_publicacao      | Sim\*\*     | Data      | Data de publicação do ato legal do histórico funcional do RGPS, preencher no formato DD/MM/AAAA         | 10             |
+ | mov_func_ato_legal_data_inicio_vigencia | Sim\*\*     | Data      | Data de início de vigência do ato legal do histórico funcional do RGPS, preencher no formato DD/MM/AAAA | 10             |
  | mov_func_ato_legal_data_revogacao       | Não         | Data      | Data de revogação do ato legal do histórico funcional do RGPS, preencher no formato DD/MM/AAAA          | 10             |
  | mov_func_ato_legal_resumo_ementa        | Não         | Caracter  | Resumo da ementa do ato legal do histórico funcional do RGPS                                            | 100            |
  | mov_func_ato_legal_ementa               | Não         | Caracter  | Ementa do ato legal do histórico funcional do RGPS                                                      | 1000           |
 
 \* Observar a relação existente entre tipo de vínculo e tipo de regime
+\*\* Este campo é obrigatório apenas se o Ato Legal estiver presente

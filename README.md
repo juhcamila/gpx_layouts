@@ -42,6 +42,7 @@ Em cada layout, os atributos `tipo`, `número,`, `ano`, `data publicação` e `d
 
 É importante notar que **a ausência do Ato Legal não impede a criação do registro**, e estes atributos apenas são obrigatórios caso o Ato Legal esteja presente.
 
+
 ### Registros associados à um servidor
 
 Para associar um servidor à um registro, os layouts aceitam os seguintes campos referentes ao servidor a ser associado: `nome`, `nome mãe`, `data de nascimento`, `CPF`, `PIS/PASEP/NIT`.
@@ -53,3 +54,17 @@ A combinação de atributos a seguir será usada como chave para buscar um servi
 * Nome, nome da mãe, data de nascimento.
 
 Caso nenhum servidor seja encontrado usando as chaves acima, o registro não será importado.
+
+### Regras para importação dos dados
+
+Cada linha presente no arquivo CSV recebido(exceto é claro a linha que representa o cabeçalho do formato CSV) será utilizada para a operação de inclusão e/ou alteração de dados no sistema. Para realizar tais operações, é necessário que sejam informados todos os atributos que compõe uma chave de identificação única no sistema.
+
+Cada arquivo de layout possui a combinação e descrição de quais atributos podem ser utilizados para compor a chave de identificação.
+
+Durante o processo de importação de dados, nosso sistema identifica tais chaves e realiza a operação de inclusão. No caso de já existir os dados no sistema, então procede-se a operação de alteração dos dados, exceto para os atributos que compõe a a chave de identificação única.
+
+Caso haja no arquivo de importação linhas com chaves de identificação repetidas, os valores dos demais atributos a serem incluídos ou alterados no sistema, serão sempre os valores da última linha encontrada no arquivo para a chave em questão.
+
+A alteração dos atributos que compõe uma chave de identificação única no sistema poderá ser realizada somente através do sistema Gestprev Next.
+
+No caso de uma(s) chave(s) de identificação única não ser informada ou ser informada incorretamente ou ser informada com atributos incompletos, a operação de inclusão e/ou alteração não poderá ser realizada.

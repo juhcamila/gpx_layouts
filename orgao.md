@@ -34,3 +34,16 @@
  | ato_legal_ementa                 | Não         | Caracter | Ementa do ato legal                                                       | 1000           |
 
 \* Este campo é obrigatório apenas se o Ato Legal estiver presente.
+
+
+---
+
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+1. **Chave órgão**
+    * nome e poder
+
+
+2. **Chave ato legal**
+    * ato_legal_tipo_ato, ato_legal_numero, ato_legal_ano

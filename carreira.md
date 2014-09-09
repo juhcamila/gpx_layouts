@@ -28,3 +28,16 @@
  | ato_legal_remuneracao_ementa               | Não         | Caracter | Ementa do ato legal da remuneração da carreira                                                      | 1000           |
 
 \* Este campo é obrigatório apenas se o Ato Legal estiver presente.
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chave carreira**
+    * nome, orgao_nome_orgao, orgao_poder
+
+* **chave ato legal**
+    1. ato de criação da carreira
+        * ato_legal_criacao_tipo_ato, ato_legal_criacao_numero, ato_legal_criacao_ano
+    2. ato de remuneração da carreira
+        * ato_legal_remuneracao_tipo_ato, ato_legal_remuneracao_numero, ato_legal_remuneracao_ano

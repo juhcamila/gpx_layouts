@@ -41,3 +41,27 @@
 \* Caso o servidor se encontre em situação funcional de acordo com os códigos 2, 9, 11 ou 12, o campo mov_func_data_saida_cargo deverá ser informado.
 
 \*\* Observar a relação existente entre tipo de vínculo e tipo de regime
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chave vínculo funcional RPPS**
+    * regime_previdenciario, tipo_vinculo, tipo_servidor, data_exercicio_cargo, uma chave do servidor e chave do órgão
+
+* **chave movimentação vínculo funcional RPPS**
+    * mov_func_situacao_funcional, mov_func_data_movimentacao e chave vínculo funcional RPPS
+
+* **chaves servidor (ordem de precedência)**
+    1. servidor_vinculado_nome, servidor_vinculado_nome_mae, servidor_vinculado_data_nascimento
+    2. servidor_vinculado_cpf
+    3. servidor_vinculado_pasep_pis_nit
+
+* **chave cargo**
+    * cargo_vinculado_nome, cargo_vinculado_nome_carreira, orgao_vinculado_nome, orgao_vinculado_poder
+
+* **chave carreira**
+    * cargo_vinculado_nome_carreira, orgao_vinculado_nome, orgao_vinculado_poder
+
+* **chave órgão**
+    * orgao_vinculado_nome, orgao_vinculado_poder

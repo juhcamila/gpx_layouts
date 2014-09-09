@@ -28,3 +28,15 @@
 \* Campo obrigatório para certidões emitidas após 16/05/2008
 
 \*\* Formato do campo deve ser AA/MM/DD, sendo meses de 01 até 12 e dias de 01 até 30. Exemplos: 15/11/09 (15 anos, 11 meses e 9 dias)
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chaves servidor (ordem de precedência)**
+    1. servidor_vinculado_nome, servidor_vinculado_nome_mae, servidor_vinculado_data_nascimento
+    2. servidor_vinculado_cpf
+    3. servidor_vinculado_pasep_pis_nit
+
+* **chave tempo contribuição RPPS**
+    * cnpj_ente_federativo e vinculo_data_inicial

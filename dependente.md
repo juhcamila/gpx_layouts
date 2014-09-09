@@ -103,3 +103,26 @@
 \*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 4 ou 5.
 
 \*\*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 5.
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chaves dependente (ordem de precedência)**
+    1. nome, nome_mae, data_nascimento
+    2. cpf
+    3. pasep_pis_nit
+
+* **chave dependência**
+    * dependencia_tipo_dependencia e uma chave do servidor
+
+* **chaves servidor (ordem de precedência)**
+    1. servidor_vinculado_nome, servidor_vinculado_nome_mae, servidor_vinculado_data_nascimento
+    2. servidor_vinculado_cpf
+    3. servidor_vinculado_pasep_pis_nit
+
+* **chave representante legal**
+    * representante_legal_cpf
+
+* **chave ato legal**
+    * dependencia_ato_legal_tipo_ato, dependencia_ato_legal_numero, dependencia_ato_legal_ano

@@ -57,14 +57,14 @@ Caso nenhum servidor seja encontrado usando as chaves acima, o registro não ser
 
 ### Regras para importação dos dados
 
-Cada linha presente no arquivo CSV recebido(exceto é claro a linha que representa o cabeçalho do formato CSV) será utilizada para a operação de inclusão e/ou alteração de dados no sistema. Para realizar tais operações, é necessário que sejam informados todos os atributos que compõe uma chave de identificação única no sistema.
+Cada linha presente no arquivo CSV recebido(exceto é claro a linha que representa o cabeçalho do formato CSV) será utilizada para a operação de inclusão e/ou alteração de dados no sistema. Para realizar tais operações, é necessário que sejam informados todos os atributos que compõe uma chave de identificação única no sistema.
 
 Cada arquivo de layout possui a combinação e descrição de quais atributos podem ser utilizados para compor a chave de identificação.
 
-Durante o processo de importação de dados, nosso sistema identifica tais chaves e realiza a operação de inclusão. No caso de já existir os dados no sistema, então procede-se a operação de alteração dos dados, exceto para os atributos que compõe a a chave de identificação única.
+Durante o processo de importação de dados, nosso sistema identifica a chave de identificação e realiza a operação de inclusão. No caso de já existir os dados no sistema, então procede-se a operação de alteração dos dados, exceto para os atributos que compõe a chave de identificação única.
 
 Caso haja no arquivo de importação linhas com chaves de identificação repetidas, os valores dos demais atributos a serem incluídos ou alterados no sistema, serão sempre os valores da última linha encontrada no arquivo para a chave em questão.
 
 A alteração dos atributos que compõe uma chave de identificação única no sistema poderá ser realizada somente através do sistema Gestprev Next.
 
-No caso de uma(s) chave(s) de identificação única não ser informada ou ser informada incorretamente ou ser informada com atributos incompletos, a operação de inclusão e/ou alteração não poderá ser realizada.
+No caso de uma chave de identificação única não ser informada ou ser informada incorretamente ou ser informada com atributos incompletos, a operação de inclusão e/ou alteração não poderá ser realizada.

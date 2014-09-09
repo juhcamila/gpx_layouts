@@ -31,3 +31,24 @@
 
 \* Observar a relação existente entre tipo de vínculo e tipo de regime
 \*\* Este campo é obrigatório apenas se o Ato Legal estiver presente
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chave vínculo funcional RGPS**
+    * regime_previdenciario, tipo_vinculo, descricao_funcao, uma chave do servidor e chave do órgão
+
+* **chaves servidor (ordem de precedência)**
+    1. servidor_vinculado_nome, servidor_vinculado_nome_mae, servidor_vinculado_data_nascimento
+    2. servidor_vinculado_cpf
+    3. servidor_vinculado_pasep_pis_nit
+
+* **chave órgão**
+    * orgao_vinculado_nome, orgao_vinculado_poder
+
+* **chave movimentação vínculo funcional**
+    * mov_func_data_movimentacao e chave vínculo funcional RGPS
+
+* **chave ato legal da movimentação funcional RGPS**
+    * mov_func_ato_legal_tipo, mov_func_ato_legal_numero, mov_func_ato_legal_ano

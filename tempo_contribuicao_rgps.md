@@ -28,3 +28,15 @@
 \*\* Caso o servidor possua mais de um vínculo empregatício na certidão, os atributos certidao_numero, certidao_data_emissao e pasep_pis_nit serão necessários para compor a chave composta para cadastramento dos vincínculos empregatícios
 
 \*\*\* Formato do campo deve ser AA/MM/DD, sendo meses de 01 até 12 e dias de 01 até 30. Exemplos: 15/11/09 (15 anos, 11 meses e 9 dias)
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chaves servidor (ordem de precedência)**
+    1. servidor_vinculado_nome, servidor_vinculado_nome_mae, servidor_vinculado_data_nascimento
+    2. servidor_vinculado_cpf
+    3. servidor_vinculado_pasep_pis_nit
+
+* **chave tempo contribuição RGPS**
+    * vinculo_data_inicial, cargo_nome, certidao_numero, certidao_data_emissao, pasep_pis_nit

@@ -84,7 +84,7 @@
  | assistencia_saude_plano_titular                     | Não         | Numérico | Servidor titular ou dependente. [0: Titular, 1: Dependente]                                                  | 1              |
  | informatica_conhecimentos_gerais                    | Não         | Numérico | Conhecimentos gerais de informática, de acordo com a Tabela 34                                               | 1              |
  | informatica_conhecimentos_nivel                     | Não         | Numérico | Nível de conhecimento em informática, de acordo com a Tabela 35                                              | 1              |
- | representatividade_tipo                             | Sim*        | Numérico | Tipo da representatividade do servidor para com seu representante legal, de acordo com a Tabela 36           | 1              |
+ | representatividade_tipo                             | Sim\*       | Numérico | Tipo da representatividade do servidor para com seu representante legal, de acordo com a Tabela 36           | 1              |
  | representatividade_data_inicio                      | Não\*\*     | Data     | Data de início da representatividade, preencher no formato DD/MM/AAAA                                        | 10             |
  | representatividade_data_termino_previsto            | Não\*\*\*   | Data     | Data de término previsto da representatividade, preencher no formato DD/MM/AAAA                              | 10             |
  | representante_legal_nome                            | Sim\*       | Caracter | Nome do representante legal                                                                                  | 80             |
@@ -114,3 +114,15 @@
 \*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 4 ou 5.
 
 \*\*\* Este campo torna-se obrigatório caso o campo representatividade_tipo contenha o valor 5.
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chaves servidor (ordem de precedência)**
+    1. nome, nome_mae, data_nascimento
+    2. cpf
+    3. pasep_pis_nit
+
+* **chave representante legal**
+    * representante_legal_cpf

@@ -73,3 +73,38 @@
 \*\* Este campo torna-se obrigatório caso o atributo pensao_motivo_fim contenha código diferente de de 51 ou 99 ("Decisão Judicial" ou "Outros")
 
 \*\*\* Este campo é obrigatório apenas se o Ato Legal estiver presente
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chaves benefício(ordem de precedência)**
+  1. numero_processo, tipo_beneficio e uma chave do servidor
+  2. data_inicio, tipo_beneficio e uma chave do servidor
+  3. numero_processo, tipo_beneficio e uma chave do pensionista
+  4. data_inicio, tipo_beneficio e uma chave do pensionista
+
+* **chaves servidor (ordem de precedência)**
+    1. servidor_vinculado_nome, servidor_vinculado_nome_mae, servidor_vinculado_data_nascimento
+    2. servidor_vinculado_cpf
+    3. servidor_vinculado_pasep_pis_nit
+
+* **chaves pensionista (ordem de precedência)**
+    1. pensionista_vinculado_nome
+    2. pensionista_vinculado_nome_mae
+    3. pensionista_vinculado_data_nascimento
+
+* **chave ato legal**
+    * ato_legal_tipo_ato, ato_legal_numero, ato_legal_ano
+
+* **chave quota**
+    uma chave do benefício e uma chave do pensionista
+
+* **chave cargo**
+    * cargo_nome, carreira_nome, orgao_nome e orgao_poder
+
+* **chave carreira**
+    * carreira_nome, orgao_nome e orgao_poder
+
+* **chave órgão**
+    * orgao_nome e orgao_poder

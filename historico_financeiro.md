@@ -39,3 +39,30 @@
 \* Remuneração sobre a qual incindirá alíquota de contribuição
 
 \*\* Observar a relação existente entre tipo de vínculo e tipo de regime
+
+---
+
+### Atributo(s) da(s) chave(s) de identificação para importação de dados
+
+* **chave histórico financeiro RPPS**
+    * hist_financ_ano_contribuicao, hist_financ_mes_contribuicao, hist_financ_folha_pagamento, hist_financ_decimo_terceiro_salario, chave do vínculo funcional e chave do histórico funcional
+
+* **chave vínculo funcional RPPS**
+    * vinc_func_regime_previdenciario, vinc_func_tipo_servidor, vinc_func_tipo_vinculo, vinc_func_data_exercicio_cargo, uma chave do servidor e chave do órgão
+
+* **chave histórico funcional**
+    * vinc_func_matricula e vinc_func_data_exercicio_cargo
+
+* **chaves servidor (ordem de precedência)**
+    1. servidor_vinculado_nome, servidor_vinculado_nome_mae, servidor_vinculado_data_nascimento
+    2. servidor_vinculado_cpf
+    3. servidor_vinculado_pasep_pis_nit
+
+* **chave cargo**
+    * vinc_func_cargo_vinculado_nome, vinc_func_cargo_vinculado_nome_carreira, vinc_func_orgao_vinculado_nome e vinc_func_orgao_vinculado_poder
+
+* **chave carreira**
+    * vinc_func_cargo_vinculado_nome_carreira, vinc_func_orgao_vinculado_nome e vinc_func_orgao_vinculado_poder
+
+* **chave órgão**
+    * vinc_func_orgao_vinculado_nome e vinc_func_orgao_vinculado_poder

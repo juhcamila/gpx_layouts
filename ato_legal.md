@@ -12,3 +12,8 @@
  | data_revogacao        | Não         | Data      | Data de revogação do ato legal, preencher no formato DD/MM/AAAA           | 10              |
  | resumo_ementa         | Não         | Caracter  | Resumo da ementa do ato legal                                             | 100             |
  | ementa                | Não         | Caracter  | Ementa do ato legal                                                       | 1000            |
+
+### Atributo(s) da chave de identificação para importação de dados
+
+* **chave  ato legal**
+    * tipo_ato, numero, ano, data_publicacao, data_inicio_vigencia

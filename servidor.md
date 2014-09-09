@@ -126,3 +126,17 @@
 
 * **chave representante legal**
     * representante_legal_cpf
+
+### Observações sobre atributos não obrigatórios e o processo de importação
+
+1. **RG**
+    * O atributo rg não é obrigatório, mas caso seja informado, o sistema de importação verificará a presença e validará os atributos rg_uf_expedicao, rg_orgao_expedidor e rg_data_emissao.
+    * Caso os atributos rg_uf_expedicao, rg_orgao_expedidor e rg_data_emissao não seja informados em sua totalidade, nenhum destes atributos serão importados, incluindo o próprio atributo rg.
+
+2. **CNH**
+    * O atributo cnh não é obrigatório, mas caso seja informado, o sistema de importação verificará a presença e validará os atributos cnh_data_validade, cnh_data_emissao e cnh_categorias.
+    * Caso os atributos cnh_data_validade, cnh_data_emissao e cnh_categorias não sejam informados em sua totalidade, nenhum destes atributos serão importados, incluindo o próprio atributo cnh.
+
+3. **Conselho de classe**
+    * O atributo conselho_classe_numero não é obrigatório, mas caso seja informado, o sistema de importação verificará a presença e validará os atributos conselho_classe_nome, conselho_classe_data_emissao e conselho_classe_data_validade.
+    * Caso os atributos conselho_classe_nome, conselho_classe_data_emissao e conselho_classe_data_validade não sejam informados em sua totalidade, nenhum destes atributos serão importados, incluindo o próprio atributo conselho_classe_numero.

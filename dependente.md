@@ -126,3 +126,9 @@
 
 * **chave ato legal**
     * dependencia_ato_legal_tipo_ato, dependencia_ato_legal_numero, dependencia_ato_legal_ano
+
+### Observações sobre atributos não obrigatórios e o processo de importação
+
+1. **RG**
+    * O atributo rg não é obrigatório, mas caso seja informado, o sistema de importação verificará a presença e validará os atributos rg_uf_expedicao, rg_orgao_expedidor e rg_data_emissao.
+    * Caso os atributos rg_uf_expedicao, rg_orgao_expedidor e rg_data_emissao não seja informados em sua totalidade, nenhum destes atributos serão importados, incluindo o próprio atributo rg.

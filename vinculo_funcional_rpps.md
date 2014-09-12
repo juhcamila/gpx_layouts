@@ -36,7 +36,7 @@
  | mov_func_periodo_rgps                   | Não         | Numérico  | Há período RGPS no vínculo? [0: Não, 1: Sim]                                                     | 1              |
  | mov_func_situacao_funcional             | Sim\*       | Numérico  | Situação funcional do servidor, de acordo com a Tabela 37                                        | 2              |
  | mov_func_data_movimentacao              | Sim         | Data      | Data em que ocorreu a movimentação funcional, preencher no formato DD/MM/AAAA                    | 10             |
- | mov_func_tipo_magistério                | Sim         | Numérico  | Tipo de magistério exclusivo em sala de aula, de acordo com a Tabela 41                          | 1              |
+ | mov_func_tipo_magisterio                | Sim         | Numérico  | Tipo de magistério exclusivo em sala de aula, de acordo com a Tabela 41                          | 1              |
 
 \* Caso o servidor se encontre em situação funcional de acordo com os códigos 2, 9, 11 ou 12, o campo mov_func_data_saida_cargo deverá ser informado.
 

@@ -1,0 +1,70 @@
+{
+	"fields": [
+		{
+	  "name": "nome", "constraints": { "required": true }
+		},
+		{
+	  "name": "codigo_origem", "constraints": { "required": false }
+		},
+		{
+	  "name": "data_criacao", "constraints": { "required": false }
+		},
+		{
+	  "name": "data_extincao", "constraints": { "required": false }
+		},
+		{
+	  "name": "cargo_acumulacao", "constraints": { "required": true }
+		},
+		{
+	  "name": "contagem_especial", "constraints": { "required": true }
+		},
+		{
+	  "name": "tecnico_cientifico", "constraints": { "required": true }
+		},
+		{
+	  "name": "remuneracao_inicial", "constraints": { "required": false }
+		},
+		{
+	  "name": "remuneracao_final", "constraints": { "required": false }
+		},
+		{
+	  "name": "aposentadoria_especial", "constraints": { "required": true }
+		},
+		{
+	  "name": "dedicacao_exclusiva", "constraints": { "required": true }
+		},
+		{
+	  "name": "carreira_nome_carreira", "constraints": { "required": true }
+		},
+		{
+	  "name": "orgao_nome_orgao", "constraints": { "required": true }
+		},
+		{
+	  "name": "orgao_poder", "constraints": { "required": true }
+		},
+		{
+	  "name": "ato_legal_tipo_ato", "constraints": { "required": false }
+		},
+		{
+	  "name": "ato_legal_numero", "constraints": { "required": false }
+		},
+		{
+	  "name": "ato_legal_ano", "constraints": { "required": false }
+		},
+		{
+	  "name": "ato_legal_data_publicacao", "constraints": { "required": false }
+		},
+		{
+	  "name": "ato_legal_data_inicio_vigencia", "constraints": { "required": false }
+		},
+		{
+	  "name": "ato_legal_data_revogacao", "constraints": { "required": false }
+		},
+		{
+	  "name": "ato_legal_resumo_ementa", "constraints": { "required": false }
+		},
+		{
+	  "name": "ato_legal_ementa", "constraints": { "required": false }
+		}
+	]
+}

@@ -24,10 +24,10 @@
   | hist_financ_ano_contribuicao                 | Sim         | Numérico  | Ano de contribuição do histórico financeiro                                                      | 4              | -        |
   | hist_financ_mes_contribuicao                 | Sim         | Numérico  | Mes de contribuição do histórico financeiro                                                      | 2              | -        |
   | hist_financ_base_calculo_patronal            | Não         | Numérico  | Base do cálculo de contribuição patronal do histórico financeiro                                 | 8              | 2        |
-  | hist_financ_base_calculo_segurado            | Não         | Numérico  | Base do cálculo de contribuição para o segurando do histórico financeiro                         | 8              | 2        |
+  | hist_financ_base_calculo_segurado            | Não         | Numérico  | Base do cálculo de contribuição para o segurado do histórico financeiro                         | 8              | 2        |
   | hist_financ_compoe_media_beneficio           | Sim         | Numérico  | Ficha financeira compõe média para concessão de benefício. [0: Não, 1: Sim]                      | 1              | -        |
   | hist_financ_valor_contribuicao_patronal      | Não         | Numérico  | Valor para contribuição patronal do histórico financeiro                                         | 8              | 2        |
-  | hist_financ_valor_contribuicao_segurando     | Não         | Numérico  | Valor para contribuição do segurado do histórico financeiro                                      | 8              | 2        |
+  | hist_financ_valor_contribuicao_segurado     | Não         | Numérico  | Valor para contribuição do segurado do histórico financeiro                                      | 8              | 2        |
   | hist_financ_decimo_terceiro_salario          | Sim         | Numérico  | Ficha financeira corresponde a de 13 salário? [0: Não, 1: Sim]                                   | 1              | -        |
   | hist_financ_valor_contribuicao_devolucao     | Não         | Numérico  | Valor de devolução da contribuição do histórico financeiro                                       | 8              | 2        |
   | hist_financ_valor_contribuicao_diferenca     | Não         | Numérico  | Valor de diferença da contribuição do histórico financeiro                                       | 8              | 2        |

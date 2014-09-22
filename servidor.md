@@ -43,7 +43,7 @@
  | cnh                                                 | Não         | Caracter | Número da CNH, preencher somente com números                                                                 | -              |
  | cnh_data_emissao                                    | Não         | Data     | Data de emissão da CNH, preencher no formato DD/MM/AAAA                                                      | 10             |
  | cnh_data_validade                                   | Não         | Data     | Data de validade da CNH, preencher no formato DD/MM/AAAA                                                     | 10             |
- | cnh_categorias                                      | Não         | Caracter | Categorias da CNH, de acordo com a Tabela 33                                                                 | 2              |
+ | cnh_categorias                                      | Não         | Caracter | Categorias da CNH, de acordo com a Tabela 33                                                                 | 9              |
  | ctps                                                | Não         | Numérico | Número da CTPS, preencher somente com números                                                                | 8              |
  | ctps_serie                                          | Não         | Caracter | Série da CTPS                                                                                                | 10             |
  | ctps_data_emissao                                   | Não         | Data     | Data de emissão da CTPS, preencher no formato DD/MM/AAAA                                                     | 10             |

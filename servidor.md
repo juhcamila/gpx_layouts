@@ -57,7 +57,7 @@
  | certidao_obito_livro                                | Não         | Caracter | Número do livro da certidão de óbito, preencher somente com números                                          | 15             |
  | certidao_obito_folha                                | Não         | Caracter | Número da folha da certidão de óbito, preencher somente com números                                          | 6              |
  | certidao_obito_data_emissao                         | Não         | Data     | Data de emissão da certidão de óbito, preencher no formato DD/MM/AAAA                                        | 10             |
- | cartorio_obito_cnpj                                 | Não         | Caracter | CNPJ do cartório de registro do óbito, preencher somente com números                                         | 8              |
+ | cartorio_obito_cnpj                                 | Não         | Caracter | CNPJ do cartório de registro do óbito, preencher somente com números                                         | 14             |
  | cartorio_obito_nome                                 | Não         | Caracter | Nome do cartório de registro do óbito                                                                        | 40             |
  | cartorio_obito_cep                                  | Não         | Caracter | CEP do cartório de registro do óbito, preencher somente com números                                          | 8              |
  | cartorio_obito_municipio                            | Não         | Numérico | Código IBGE do município do cartório de registro do óbito, de acordo com a Tabela 07                         | 8              |

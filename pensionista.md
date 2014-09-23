@@ -19,7 +19,7 @@
  | escolaridade_nivel                                  | Não         | Numérico | Escolaridade, de acordo com a Tabela 04                                                               | -              |
  | escolaridade_nome_curso                             | Não         | Caracter | Nome do curso acadêmico                                                                               | 100            |
  | escolaridade_nome_instituicao                       | Não         | Caracter | Nome da instituição do curso acadêmico                                                                | 100            |
- | escolaridade_ano_conclusao                          | Não         | Data     | Ano de conclusão do curso acadêmico                                                                   | 10             |
+ | escolaridade_ano_conclusao                          | Não         | Data     | Ano de conclusão do curso acadêmico                                                                   | 4              |
  | sexo                                                | Não         | Numérico | Sexo [0: Masculino, 1: Feminino]                                                                      | 1              |
  | tipo_deficiencia                                    | Não         | Numérico | Tipo de deficiência, de acordo com a Tabela 25                                                        | 1              |
  | naturalizado                                        | Não         | Numérico | Se o servidor é naturalizado [0: Não, 1: Sim]                                                         | 1              |

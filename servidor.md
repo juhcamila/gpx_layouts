@@ -20,7 +20,7 @@
  | escolaridade_nivel                                  | Não         | Numérico | Escolaridade, de acordo com a Tabela 04                                                                      | -              |
  | escolaridade_nome_curso                             | Não         | Caracter | Nome do curso acadêmico                                                                                      | 100            |
  | escolaridade_nome_instituicao                       | Não         | Caracter | Nome da instituição do curso acadêmico                                                                       | 100            |
- | escolaridade_ano_conclusao                          | Não         | Data     | Ano de conclusão do curso acadêmico                                                                          | 10             |
+ | escolaridade_ano_conclusao                          | Não         | Data     | Ano de conclusão do curso acadêmico                                                                          | 4              |
  | sexo                                                | Não         | Numérico | Sexo [0: Masculino, 1: Feminino]                                                                             | 1              |
  | tipo_deficiencia                                    | Não         | Numérico | Tipo de deficiência, de acordo com a Tabela 25                                                               | 1              |
  | pais_origem                                         | Não         | Numérico | Nacionalidade, código do país de origem do servidor, de acordo com a Tabela 18                               | -              |
@@ -43,7 +43,7 @@
  | cnh                                                 | Não         | Caracter | Número da CNH, preencher somente com números                                                                 | -              |
  | cnh_data_emissao                                    | Não         | Data     | Data de emissão da CNH, preencher no formato DD/MM/AAAA                                                      | 10             |
  | cnh_data_validade                                   | Não         | Data     | Data de validade da CNH, preencher no formato DD/MM/AAAA                                                     | 10             |
- | cnh_categorias                                      | Não         | Caracter | Categorias da CNH, de acordo com a Tabela 33                                                                 | 2              |
+ | cnh_categorias                                      | Não         | Caracter | Categorias da CNH, de acordo com a Tabela 33                                                                 | 9              |
  | ctps                                                | Não         | Numérico | Número da CTPS, preencher somente com números                                                                | 8              |
  | ctps_serie                                          | Não         | Caracter | Série da CTPS                                                                                                | 10             |
  | ctps_data_emissao                                   | Não         | Data     | Data de emissão da CTPS, preencher no formato DD/MM/AAAA                                                     | 10             |
@@ -57,7 +57,7 @@
  | certidao_obito_livro                                | Não         | Caracter | Número do livro da certidão de óbito, preencher somente com números                                          | 15             |
  | certidao_obito_folha                                | Não         | Caracter | Número da folha da certidão de óbito, preencher somente com números                                          | 6              |
  | certidao_obito_data_emissao                         | Não         | Data     | Data de emissão da certidão de óbito, preencher no formato DD/MM/AAAA                                        | 10             |
- | cartorio_obito_cnpj                                 | Não         | Caracter | CNPJ do cartório de registro do óbito, preencher somente com números                                         | 8              |
+ | cartorio_obito_cnpj                                 | Não         | Caracter | CNPJ do cartório de registro do óbito, preencher somente com números                                         | 14             |
  | cartorio_obito_nome                                 | Não         | Caracter | Nome do cartório de registro do óbito                                                                        | 40             |
  | cartorio_obito_cep                                  | Não         | Caracter | CEP do cartório de registro do óbito, preencher somente com números                                          | 8              |
  | cartorio_obito_municipio                            | Não         | Numérico | Código IBGE do município do cartório de registro do óbito, de acordo com a Tabela 07                         | 8              |

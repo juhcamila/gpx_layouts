@@ -41,6 +41,13 @@
  | certidao_nascimento_numero                          | Não         | Caracter | Número do termo da certidão de nascimento                                                             | 15             |
  | certidao_nascimento_livro                           | Não         | Caracter | Número do livro da certidão de nascimento                                                             | 10             |
  | certidao_nascimento_folha                           | Não         | Caracter | Número da folha da certidão de nascimento                                                             | 6              |
+ | estrangeiro_naturalizado                            | Não         | Numérico | Se o servidor é naturalizado, para nacionalidade diferente de Brasileira. [0: Não, 1: Sim]                   | 1              |
+ | estrangeiro_visto_permanente                        | Não         | Numérico | Visto permanente para nacionalidade diferente de Brasileira. [0: Não, 1: Sim]                                | 1              |
+ | estrangeiro_data_chegada_brasil                     | Não         | Data     | Data de chegada ao Brasil para nacionalidade diferente de Brasileira, preencher no formato DD/MM/AAAA        | 10             |
+ | estrangeiro_rg                                      | Não         | Caracter | Número do RGE, para nacionalidade diferente de Brasileira                                                    | 20             |
+ | estrangeiro_rg_orgao_emissor                        | Não         | Caracter | Preencher com o nome do órgão expedição/emissor do RGE, para nacionalidade diferente de Brasileira           | -              |
+ | estrangeiro_rg_uf_expedicao                         | Não         | Numérico | Código IBGE da UF de expedição do RGE, de acordo com a Tabela 08, para nacionalidade diferente de Brasileira | 8              |
+ | estrangeiro_rg_data_emissao                         | Não         | Data     | Data de emissão do RGE, preencher no formato DD/MM/AAAA, para nacionalidade diferente de Brasileira          | 10             |
  | dependencia_tipo_dependencia                        | Sim         | Numérico | Tipo da dependência entre o dependente e o servidor vinculado, de acordo com a Tabela 26              | 2              |
  | dependencia_fins_previdenciarios                    | Não         | Caracter | Informa se a dependência será indicada para fins previdenciários [0: Não, 1: Sim]                     | 1              |
  | dependencia_inicio_data                             | Não         | Data     | Data de início da dependência, preencher no formato DD/MM/AAAA                                        | 10             |

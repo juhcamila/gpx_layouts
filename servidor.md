@@ -27,7 +27,7 @@
  | municipio_naturalidade                              | Não         | Numérico | Código IBGE do município de naturalidade do servidor, de acordo com a Tabela 07                              | 8              |
  | endereco_cep                                        | Não         | Caracter | CEP do endereço, preencher somente com números                                                               | 8              |
  | endereco_municipio                                  | Não         | Numérico | Código IBGE do município atual, de acordo com a Tabela 07                                                    | 8              |
- | endereco_logradouro_tipo                            | Não         | Numérico | Tipo do logradouro, de acordo com a Tabela 08                                                                | 2              |
+ | endereco_logradouro_tipo                            | Não         | Numérico | Tipo do logradouro, de acordo com a Tabela 28                                                                | 3              |
  | endereco_tipo_imovel                                | Não         | Numérico | Tipo de imóvel, de acordo com a Tabela 27                                                                    | 2              |
  | endereco_bairro                                     | Não         | Caracter | Bairro                                                                                                       | 30             |
  | endereco_logradouro                                 | Não         | Caracter | Logradouro                                                                                                   | 40             |

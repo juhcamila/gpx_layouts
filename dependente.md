@@ -95,6 +95,8 @@
  | assistencia_saude_plano_operadora                   | Não         | Caracter | Nome da operadora do plano de Saúde                                                                   | 100            |
  | assistencia_saude_plano_nome                        | Não         | Caracter | Nome do plano de saúde                                                                                | 100            |
  | assistencia_saude_plano_titular                     | Não         | Numérico | Servidor titular ou dependente. [0: Titular, 1: Dependente]                                           | 1              |
+ | informatica_conhecimentos_gerais                    | Não         | Numérico | Conhecimentos gerais de informática, de acordo com a Tabela 34                                        | 1              |
+ | informatica_conhecimentos_nivel                     | Não         | Numérico | Nível de conhecimento em informática, de acordo com a Tabela 35                                       | 1              |
 
 \* Este campo é obrigatório apenas se o Ato Legal estiver presente.
 

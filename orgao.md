@@ -10,7 +10,7 @@
  | cnpj                             | Não         | Caracter | Número do CNPJ do órgão, preencher apenas com números                     | 14             |
  | endereco_cep                     | Não         | Caracter | CEP do endereço do órgão, preencher apenas com números                    | 8              |
  | endereco_municipio               | Não         | Numérico | Código IBGE do município do endereço do órgão, de acordo com a Tabela 07  | 6              |
- | endereco_tipo_logradouro         | Não         | Numérico | Tipo de logradouro do endereço, de acordo com a Tabela 28                 | 2              |
+ | endereco_tipo_logradouro         | Não         | Numérico | Tipo de logradouro do endereço, de acordo com a Tabela 28                 | 3              |
  | endereco_logradouro              | Não         | Caracter | Logradouro do órgão                                                       | 40             |
  | endereco_bairro                  | Não         | Caracter | Bairro do endereço do órgão                                               | 30             |
  | endereco_complemento_logradouro  | Não         | Caracter | Complemento do endereço do órgão                                          | 30             |

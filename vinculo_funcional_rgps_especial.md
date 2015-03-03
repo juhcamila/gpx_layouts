@@ -4,8 +4,8 @@
 
     | Atributo                                | Obrigatório | Tipo      | Descrição                                                                                               | Tamanho máximo | Decimais |
     | :-------------------------------------- | :---------- | :-------- | :------------------------------------------------------------------------------------------------------ | -------------: | -------: |
-    | data_inicio_funcao                      | Sim         | Data      | Data de início na função/emprego, preencher no formato DD/MM/AAAA                                       | 10             | -        |
-    | descricao_funcao                        | Sim         | Caracter  | Nome da função ou emprego exercido pelo servidor no RGPS                                                | 25             | -        |
+    | data_inicio_funcao                      | Sim         | Data      | Data de início no emprego, preencher no formato DD/MM/AAAA                                       | 10             | -        |
+    | descricao_funcao                        | Sim         | Caracter  | Nome do  emprego exercido pelo servidor no RGPS                                                | 25             | -        |
     | matricula                               | Sim         | Caracter  | Matrícula do servidor                                                                                   | 20             | -        |
     | regime_previdenciario                   | Sim         | Numérico  | Tipo do regime previdenciário do vínculo. [1: RGPS]                                                     | 1              | -        |
     | tipo_vinculo                            | Sim\*       | Numérico  | Tipo do vínculo do servidor com o órgão do vínculo funcional, de acordo com a Tabela 38                 | 2              | -        |
@@ -28,8 +28,8 @@
     | mov_func_ato_legal_data_revogacao       | Não         | Data      | Data de revogação do ato legal do histórico funcional do RGPS, preencher no formato DD/MM/AAAA          | 10             | -        |
     | mov_func_ato_legal_resumo_ementa        | Não         | Caracter  | Resumo da ementa do ato legal do histórico funcional do RGPS                                            | 100            | -        |
     | mov_func_ato_legal_ementa               | Não         | Caracter  | Ementa do ato legal do histórico funcional do RGPS                                                      | 1000           | -        |
-    | descricao_funcao_magisterio             | Sim         | Numérico  | Descrição ou função é do tipo magistério (Professor)? [1: Não, 2: Sim]                                  | 1              | -        |
-    | salario_de_contribuicao                 | Sim         | Numérico  | Valor do salário de contribuição                                                                        | 8              | 2        |
+    | descricao_funcao_magisterio             | Sim         | Numérico  | Descrição Função/Emprego é do tipo magistério (Professor)? [1: Não, 2: Sim]                             | 1              | -        |
+    | salario_de_contribuicao                 | Sim         | Numérico  | Valor do salário de contribuição/Base de cálculo (a soma de todas as verbas compõem este valor)         | 8              | 2        |
 
 \* Observar a relação existente entre tipo de vínculo e tipo de regime
 \*\* Este campo é obrigatório apenas se o Ato Legal estiver presente

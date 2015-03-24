@@ -29,7 +29,8 @@
     | mov_func_ato_legal_resumo_ementa        | Não         | Caracter  | Resumo da ementa do ato legal do histórico funcional do RGPS                                            | 100            | -        |
     | mov_func_ato_legal_ementa               | Não         | Caracter  | Ementa do ato legal do histórico funcional do RGPS                                                      | 1000           | -        |
     | descricao_funcao_magisterio             | Sim         | Numérico  | Descrição Função/Emprego é do tipo magistério (Professor)? [1: Não, 2: Sim]                             | 1              | -        |
-    | salario_de_contribuicao                 | Sim         | Numérico  | Valor do salário de contribuição/Base de cálculo (a soma de todas as verbas compõem este valor)         | 8              | 2        |
+    | salario_de_contribuicao                 | Sim         | Numérico  | Valor da base de cálculo (soma de todas as verbas que incidem contribuição previdenciária)              | 8              | 2        |
+    | remuneraçao_integral                    | Sim         | Numérico  | Valor da remuneração integral                                                                           | 8              | 2        |
 
 \* Observar a relação existente entre tipo de vínculo e tipo de regime
 \*\* Este campo é obrigatório apenas se o Ato Legal estiver presente

@@ -38,7 +38,7 @@
     | mov_func_data_movimentacao              | Sim         | Data      | Data em que ocorreu a movimentação funcional, preencher no formato DD/MM/AAAA                    | 10             | -        |
     | mov_func_tipo_magisterio                | Sim         | Numérico  | Tipo de magistério exclusivo em sala de aula, de acordo com a Tabela 41                          | 1              | -        |
     | cargo_vinculado_magisterio              | Sim         | Numérico  | Cargo vinculado é do tipo magistério (Professor)? [1: Não, 2: Sim]                               | 1              | -        |
-    | salario_de_contribuicao                 | Sim         | Numérico  | Valor do salário de contribuição/Base de cálculo (a soma de todas as verbas compõem este valor)  | 8              | 2        |
+    | salario_de_contribuicao                 | Sim         | Numérico  | Valor da base de cálculo (soma de todas as verbas que incidem contribuição previdenciária)       | 8              | 2        |
 
 \* Caso o servidor se encontre em situação funcional de acordo com os códigos 2, 9, 11 ou 12, o campo mov_func_data_saida_cargo deverá ser informado.
 

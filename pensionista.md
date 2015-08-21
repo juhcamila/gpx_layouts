@@ -22,7 +22,6 @@
     | escolaridade_ano_conclusao                          | Não         | Data     | Ano de conclusão do curso acadêmico                                                                   | 4              |
     | sexo                                                | Não         | Numérico | Sexo [0: Masculino, 1: Feminino]                                                                      | 1              |
     | tipo_deficiencia                                    | Não         | Numérico | Tipo de deficiência, de acordo com a Tabela 25                                                        | 1              |
-    | naturalizado                                        | Não         | Numérico | Se o servidor é naturalizado [0: Não, 1: Sim]                                                         | 1              |
     | pais_origem                                         | Não         | Numérico | Código do país de origem do servidor, de acordo com a Tabela 18                                       | 3              |
     | municipio_naturalidade                              | Não         | Numérico | Código IBGE do município de naturalidade, de acordo com a Tabela 07                                   | 8              |
     | endereco_cep                                        | Não         | Caracter | CEP do endereço, preencher somente com números                                                        | 8              |

@@ -1,6 +1,6 @@
 # Layout de exportação dos dados de servidores para o GestPrev Next
 
-### Tabela de atributos
+### Tabela de atributos (104 atributos - separados por 103 vírgulas)
 
     | Atributo                                            | Obrigatório | Tipo     | Descrição                                                                                                    | Tamanho máximo |
     | :-------------------------------------------------- | :---------- | :------- | :----------------------------------------------------------------------------------------------------------- | -------------: |

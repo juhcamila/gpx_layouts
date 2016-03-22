@@ -1,6 +1,6 @@
 # Layout de exportação dos dados de vínculo funcional RGPS para o GestPrev Next
 
-### Tabela de atributos
+### Tabela de atributos (24 atributos)
 
     | Atributo                                | Obrigatório | Tipo      | Descrição                                                                                               | Tamanho máximo |
     | :-------------------------------------- | :---------- | :-------- | :-----------------------------------------------------------------------------------------------        | -------------: |

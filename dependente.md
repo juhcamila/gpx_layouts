@@ -1,6 +1,6 @@
 # Layout de exportação dos dados de dependentes para o GestPrev Next
 
-### Tabela de atributos
+### Tabela de atributos (100 atributos - separados por 99 vírgulas)
 
     | Atributo                                            | Obrigatório | Tipo     | Descrição                                                                                                    | Tamanho máximo |
     | :-------------------------------------------------- | :---------- | :------- | :----------------------------------------------------------------------------------------------------        | -------------: |
